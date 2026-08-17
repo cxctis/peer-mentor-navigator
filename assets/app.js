@@ -2,11 +2,26 @@
   "use strict";
 
   const LEVEL_LABELS = {
-    green: { name: "Peer Support & Self-Navigate", emoji: "🟢" },
-    yellow: { name: "Support + Refer to Staff", emoji: "🟡" },
-    red: { name: "Immediate Staff / Crisis Support", emoji: "🔴" }
+    green: { name: "Peer Support & Self-Navigate" },
+    yellow: { name: "Support + Refer to Staff" },
+    red: { name: "Immediate Staff / Crisis Support" }
   };
   const LEVEL_ORDER = ["green", "yellow", "red"];
+
+  const RESOURCE_FIELD_ICONS = {
+    location: "location_on",
+    hours: "schedule",
+    phone: "call",
+    email: "mail",
+    website: "language"
+  };
+  const RESOURCE_FIELD_LABELS = {
+    location: "Location",
+    hours: "Hours",
+    phone: "Phone",
+    email: "Email",
+    website: "Website"
+  };
 
   let TOPICS = null;      // full data/topics.json
   let RESOURCES = null;   // array from data/resources.json
@@ -21,6 +36,14 @@
     return String(str).replace(/[&<>"']/g, c => ({
       "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
     }[c]));
+  }
+
+  function icon(name) {
+    return `<span class="material-symbols-outlined" aria-hidden="true">${name}</span>`;
+  }
+
+  function levelBadgeHtml(level) {
+    return `<i class="dot dot-${level}" aria-hidden="true"></i>${LEVEL_LABELS[level].name}`;
   }
 
   // ---------------------------------------------------------------
@@ -79,7 +102,7 @@
 
       const header = document.createElement("div");
       header.className = "zone-header";
-      header.innerHTML = `<span>${LEVEL_LABELS[level].emoji} ${LEVEL_LABELS[level].name}</span><span class="zone-count">${topics.length} situation${topics.length === 1 ? "" : "s"}</span>`;
+      header.innerHTML = `<span>${levelBadgeHtml(level)}</span><span class="zone-count">${topics.length} situation${topics.length === 1 ? "" : "s"}</span>`;
       zone.appendChild(header);
 
       const tilesWrap = document.createElement("div");
@@ -139,20 +162,17 @@
   function renderResourceCard(resourceId) {
     const r = RESOURCE_MAP[resourceId];
     if (!r) return "";
-    const fields = [];
-    if (r.location) fields.push(`<span><b>Where:</b> ${escapeHtml(r.location)}</span>`);
-    if (r.hours) fields.push(`<span><b>Hours:</b> ${escapeHtml(r.hours)}</span>`);
-    if (r.phone) fields.push(`<span><b>Phone:</b> ${escapeHtml(r.phone)}</span>`);
-    if (r.email) fields.push(`<span><b>Email:</b> ${escapeHtml(r.email)}</span>`);
-    if (r.website) fields.push(`<span><b>Web:</b> ${escapeHtml(r.website)}</span>`);
+    const fields = ["location", "hours", "phone", "email", "website"]
+      .filter(key => r[key])
+      .map(key => `<span><span class="sr-only">${RESOURCE_FIELD_LABELS[key]}: </span>${icon(RESOURCE_FIELD_ICONS[key])}${escapeHtml(r[key])}</span>`);
 
     const bring = (r.whatToBring && r.whatToBring.length)
-      ? `<div class="bring-tags">${r.whatToBring.map(b => `<span class="bring-tag">${escapeHtml(b)}</span>`).join("")}</div>`
+      ? `<div class="bring-tags">${r.whatToBring.map(b => `<span class="bring-tag">${icon("task_alt")}${escapeHtml(b)}</span>`).join("")}</div>`
       : "";
 
     return `
       <div class="resource-card">
-        <h4>${escapeHtml(r.name)}${r.needsInfo ? '<span class="needs-info">STAFF: ADD INFO</span>' : ""}</h4>
+        <h4>${escapeHtml(r.name)}${r.needsInfo ? `<span class="needs-info">${icon("flag")}STAFF: ADD INFO</span>` : ""}</h4>
         <div class="res-full">${escapeHtml(r.fullName || "")}</div>
         <p>${escapeHtml(r.description || "")}</p>
         ${bring}
@@ -167,17 +187,17 @@
     if (level === "green") {
       extra = `
         <div class="detail-section">
-          <h3>How to Respond</h3>
+          <h3>${icon("route")}How to Respond</h3>
           <div class="formula-row">
-            ${TOPICS.greenFormula.map(f => `<span class="formula-step">${escapeHtml(f.step)}</span>`).join('<span class="arrow">→</span>')}
+            ${TOPICS.greenFormula.map(f => `<span class="formula-step">${escapeHtml(f.step)}</span>`).join(icon("arrow_forward"))}
           </div>
         </div>`;
     } else if (level === "yellow") {
       extra = `
         <div class="detail-section">
-          <h3>How to Respond</h3>
+          <h3>${icon("route")}How to Respond</h3>
           <div class="formula-row">
-            ${TOPICS.yellowFormula.map(f => `<span class="formula-step">${escapeHtml(f.step)}</span>`).join('<span class="arrow">→</span>')}
+            ${TOPICS.yellowFormula.map(f => `<span class="formula-step">${escapeHtml(f.step)}</span>`).join(icon("arrow_forward"))}
           </div>
           <p style="color:var(--text-dim);font-size:.88rem;">${escapeHtml(TOPICS.yellowRule)}</p>
         </div>`;
@@ -185,43 +205,45 @@
       const proto = TOPICS.redProtocol;
       extra = `
         <div class="detail-section">
-          <h3>Immediate Action</h3>
-          <div class="action-box">${escapeHtml(topic.action || proto.rule)}</div>
+          <h3>${icon("emergency")}Immediate Action</h3>
+          <div class="action-box">${icon("priority_high")}<span>${escapeHtml(topic.action || proto.rule)}</span></div>
         </div>
         <div class="detail-section">
           <div class="dodont">
-            <div class="do"><h4>✅ Do</h4><ul>${proto.dos.map(d => `<li>${escapeHtml(d)}</li>`).join("")}</ul></div>
-            <div class="dont"><h4>❌ Don't</h4><ul>${proto.donts.map(d => `<li>${escapeHtml(d)}</li>`).join("")}</ul></div>
+            <div class="do"><h4>${icon("check_circle")}Do</h4><ul>${proto.dos.map(d => `<li>${escapeHtml(d)}</li>`).join("")}</ul></div>
+            <div class="dont"><h4>${icon("cancel")}Don't</h4><ul>${proto.donts.map(d => `<li>${escapeHtml(d)}</li>`).join("")}</ul></div>
           </div>
         </div>`;
     }
 
-    const quotes = (topic.studentQuotes || []).map(q => `<li>"${escapeHtml(q)}"</li>`).join("");
+    const quotes = (topic.studentQuotes || []).map(q => `<li>${icon("format_quote")}<span>${escapeHtml(q)}</span></li>`).join("");
     const resources = (topic.resources || []).map(renderResourceCard).join("");
 
     return `
-      <span class="badge level-${level}">${LEVEL_LABELS[level].emoji} ${LEVEL_LABELS[level].name}</span>
+      <span class="badge level-${level}">${levelBadgeHtml(level)}</span>
       <h2 id="detailTitle">${escapeHtml(topic.title)}</h2>
       <p style="color:var(--text-dim);margin:0 0 4px;">${escapeHtml(topic.category)}</p>
 
       <div class="detail-section">
-        <h3>Things Students Might Say</h3>
+        <h3>${icon("chat_bubble")}Things Students Might Say</h3>
         <ul class="quote-list">${quotes}</ul>
       </div>
 
       <div class="detail-section">
-        <h3>Why This Path</h3>
+        <h3>${icon("lightbulb")}Why This Path</h3>
         <p>${escapeHtml(topic.why || "")}</p>
       </div>
 
       ${extra}
 
       <div class="detail-section">
-        <h3>Peer Mentor Script</h3>
-        <div class="script-box">"${escapeHtml(topic.mentorScript || "")}"</div>
+        <div class="script-box">
+          <div class="script-label">${icon("record_voice_over")}Peer Mentor Script</div>
+          "${escapeHtml(topic.mentorScript || "")}"
+        </div>
       </div>
 
-      ${resources ? `<div class="detail-section"><h3>Recommended Resource${(topic.resources || []).length > 1 ? "s" : ""}</h3>${resources}</div>` : ""}
+      ${resources ? `<div class="detail-section"><h3>${icon("support_agent")}Recommended Resource${(topic.resources || []).length > 1 ? "s" : ""}</h3>${resources}</div>` : ""}
     `;
   }
 
@@ -279,13 +301,16 @@
     const resourceNames = (topic.resources || []).map(id => RESOURCE_MAP[id]?.name).filter(Boolean);
     return `
       <div class="mentor-card level-${level}" data-topic="${topic.id}">
-        <span class="badge level-${level}">${LEVEL_LABELS[level].emoji} ${LEVEL_LABELS[level].name}</span>
+        <span class="badge level-${level}">${levelBadgeHtml(level)}</span>
         <h3>${escapeHtml(topic.title)}</h3>
         ${matchInfo.quote ? `<div class="matched-quote">Closest match: "${escapeHtml(matchInfo.quote)}"</div>` : ""}
         <p>${escapeHtml(topic.why || "")}</p>
-        <div class="script-box">"${escapeHtml(topic.mentorScript || "")}"</div>
+        <div class="script-box">
+          <div class="script-label">${icon("record_voice_over")}Suggested Response</div>
+          "${escapeHtml(topic.mentorScript || "")}"
+        </div>
         ${resourceNames.length ? `<p style="margin-top:10px;"><b>Suggested resources:</b> ${resourceNames.map(escapeHtml).join(", ")}</p>` : ""}
-        <p style="color:var(--accent);font-size:.85rem;margin-top:8px;">Click for full guidance →</p>
+        <span class="go-link">Full guidance ${icon("arrow_forward")}</span>
       </div>`;
   }
 

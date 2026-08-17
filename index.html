@@ -5,7 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Peer Mentor Resource Navigator</title>
 <meta name="description" content="Click a situation, get the right resource. A visual decision-support map for peer mentors and first-year students.">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧭</text></svg>">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22><path fill=%22%23f76902%22 d=%22M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm3.5 6.5-1.91 4.59L9 15l1.91-4.59L15.5 8.5z%22/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,300..600,0..1,0&display=swap">
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
@@ -13,16 +16,16 @@
 <header class="site-header">
   <div class="header-inner">
     <div class="brand">
-      <span class="brand-icon" aria-hidden="true">🧭</span>
+      <span class="brand-icon" aria-hidden="true"><span class="material-symbols-outlined">explore</span></span>
       <div>
         <h1>Peer Mentor Resource Navigator</h1>
         <p class="tagline">Click a situation. Get the right resource, script, and referral — instantly.</p>
       </div>
     </div>
     <nav class="view-switch" role="tablist" aria-label="View switcher">
-      <button class="view-btn active" data-view="map" role="tab" aria-selected="true">🗺️ Explore Map</button>
-      <button class="view-btn" data-view="mentor" role="tab" aria-selected="false">💬 Peer Mentor Mode</button>
-      <button class="view-btn" data-view="directory" role="tab" aria-selected="false">📇 Resource Directory</button>
+      <button class="view-btn active" data-view="map" role="tab" aria-selected="true"><span class="material-symbols-outlined" aria-hidden="true">map</span> Explore Map</button>
+      <button class="view-btn" data-view="mentor" role="tab" aria-selected="false"><span class="material-symbols-outlined" aria-hidden="true">forum</span> Peer Mentor Mode</button>
+      <button class="view-btn" data-view="directory" role="tab" aria-selected="false"><span class="material-symbols-outlined" aria-hidden="true">contacts</span> Resource Directory</button>
     </nav>
   </div>
 </header>
@@ -35,15 +38,18 @@
     <div class="prompt-bar">
       <h2>What do you need today?</h2>
       <div class="quick-buttons" id="quickButtons">
-        <button class="quick-btn quick-all active" data-level="all">Everything</button>
-        <button class="quick-btn quick-green" data-level="green">🟢 A place, tool, or academic help</button>
-        <button class="quick-btn quick-yellow" data-level="yellow">🟡 I'm struggling with something</button>
-        <button class="quick-btn quick-red" data-level="red">🔴 This is urgent / unsafe</button>
+        <button class="quick-btn quick-all active" data-level="all"><span class="material-symbols-outlined" aria-hidden="true">apps</span> Everything</button>
+        <button class="quick-btn quick-green" data-level="green"><i class="dot dot-green" aria-hidden="true"></i> A place, tool, or academic help</button>
+        <button class="quick-btn quick-yellow" data-level="yellow"><i class="dot dot-yellow" aria-hidden="true"></i> I'm struggling with something</button>
+        <button class="quick-btn quick-red" data-level="red"><i class="dot dot-red" aria-hidden="true"></i> This is urgent / unsafe</button>
       </div>
     </div>
 
     <div class="search-bar">
-      <input type="search" id="mapSearch" placeholder="Search a situation — e.g. &quot;roommate&quot;, &quot;failing a class&quot;, &quot;tutoring&quot;..." aria-label="Search situations">
+      <div class="search-field">
+        <span class="material-symbols-outlined" aria-hidden="true">search</span>
+        <input type="search" id="mapSearch" placeholder="Search a situation — e.g. &quot;roommate&quot;, &quot;failing a class&quot;, &quot;tutoring&quot;..." aria-label="Search situations">
+      </div>
       <span id="mapSearchCount" class="search-count"></span>
     </div>
 
@@ -63,7 +69,10 @@
     <div class="mentor-mode-intro">
       <h2>What did the student say?</h2>
       <p>Paste or type what the student said. We'll match it to the closest situation(s) and show you what to do.</p>
-      <input type="search" id="mentorSearch" placeholder="e.g. &quot;I failed my exam&quot;" aria-label="What did the student say?">
+      <div class="search-field">
+        <span class="material-symbols-outlined" aria-hidden="true">search</span>
+        <input type="search" id="mentorSearch" placeholder="e.g. &quot;I failed my exam&quot;" aria-label="What did the student say?">
+      </div>
     </div>
     <div id="mentorResults" class="mentor-results"></div>
   </section>
@@ -82,7 +91,7 @@
 <!-- ===================== DETAIL PANEL (overlay) ===================== -->
 <div id="detailOverlay" class="detail-overlay" hidden>
   <div id="detailPanel" class="detail-panel" role="dialog" aria-modal="true" aria-labelledby="detailTitle">
-    <button id="detailClose" class="detail-close" aria-label="Close">✕</button>
+    <button id="detailClose" class="detail-close" aria-label="Close"><span class="material-symbols-outlined" aria-hidden="true">close</span></button>
     <div id="detailContent"></div>
   </div>
 </div>
