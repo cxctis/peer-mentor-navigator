@@ -186,9 +186,10 @@ main#app{max-width:1200px;margin:0 auto;padding:20px;}
   position:fixed;inset:0;
   background:rgba(10,8,4,.5);
   z-index:200;
-  display:flex;
+  display:none;
   justify-content:flex-end;
 }
+.detail-overlay:not([hidden]){display:flex;}
 .detail-panel{
   background:var(--surface);
   width:min(480px, 100%);
