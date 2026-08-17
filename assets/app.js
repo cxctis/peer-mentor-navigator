@@ -8,24 +8,17 @@
   };
   const LEVEL_ORDER = ["green", "yellow", "red"];
 
-  const RESOURCE_FIELD_ICONS = {
-    location: "location_on",
-    hours: "schedule",
-    phone: "call",
-    email: "mail",
-    website: "language"
-  };
-  const RESOURCE_FIELD_LABELS = {
-    location: "Location",
-    hours: "Hours",
-    phone: "Phone",
-    email: "Email",
-    website: "Website"
+  // General shared guidance (not per-row data — applies across each level).
+  const GREEN_FORMULA = ["Normalize", "Encourage", "Share experience", "Offer a next step"];
+  const YELLOW_FORMULA = ["Listen", "Validate", "Explore", "Refer", "Follow Up"];
+  const YELLOW_RULE = "Yellow = “I can support the student, but I should not be the only support.” The peer mentor listens, encourages, asks questions, and helps the student connect with the appropriate resource — without trying to solve the problem alone.";
+  const RED_PROTOCOL = {
+    rule: "Recognize → Stay Calm → Connect to Professional Help → Never Handle Alone. If the student's safety, someone else's safety, or immediate well-being may be at risk: STOP handling it alone.",
+    dos: ["Stay calm", "Listen", "Avoid promises of secrecy", "Contact appropriate staff immediately", "Follow program protocols", "Document according to program policy"],
+    donts: ["Do not investigate", "Do not counsel", "Do not keep it secret", "Do not handle it alone"]
   };
 
-  let TOPICS = null;      // full data/topics.json
-  let RESOURCES = null;   // array from data/resources.json
-  let RESOURCE_MAP = {};  // id -> resource
+  let SCENARIOS = [];      // flat array, all 150 rows
   let currentLevelFilter = "all";
   let currentSearch = "";
 
@@ -50,13 +43,26 @@
   // Data loading
   // ---------------------------------------------------------------
   async function loadData() {
-    const [topicsRes, resourcesRes] = await Promise.all([
-      fetch("data/topics.json"),
-      fetch("data/resources.json")
-    ]);
-    TOPICS = await topicsRes.json();
-    RESOURCES = await resourcesRes.json();
-    RESOURCE_MAP = Object.fromEntries(RESOURCES.map(r => [r.id, r]));
+    const res = await fetch("data/scenarios.json");
+    SCENARIOS = await res.json();
+  }
+
+  function scenarioById(id) {
+    return SCENARIOS.find(s => s.id === id);
+  }
+
+  // Group scenarios by level, then by category, preserving first-seen order.
+  function groupedByLevel(level, list) {
+    const categories = [];
+    const map = new Map();
+    list.filter(s => s.level === level).forEach(s => {
+      if (!map.has(s.category)) {
+        map.set(s.category, []);
+        categories.push(s.category);
+      }
+      map.get(s.category).push(s);
+    });
+    return categories.map(cat => ({ category: cat, items: map.get(cat) }));
   }
 
   // ---------------------------------------------------------------
@@ -76,14 +82,16 @@
   }
 
   // ---------------------------------------------------------------
-  // Treemap (map view)
+  // Map view — every scenario is its own tile, grouped under a
+  // category subheader for scannability. Nothing is merged.
   // ---------------------------------------------------------------
-  function topicMatchesSearch(topic, query) {
+  function scenarioMatchesSearch(s, query) {
     if (!query) return true;
     const q = query.toLowerCase();
     const haystack = [
-      topic.title, topic.category,
-      ...(topic.studentQuotes || [])
+      s.question, s.category, s.response,
+      ...(s.referral || []),
+      ...(s.resources || []).map(r => r.name)
     ].join(" ").toLowerCase();
     return haystack.includes(q);
   }
@@ -93,37 +101,51 @@
     container.innerHTML = "";
 
     const levels = currentLevelFilter === "all" ? LEVEL_ORDER : [currentLevelFilter];
+    const filtered = SCENARIOS.filter(s => scenarioMatchesSearch(s, currentSearch));
     let totalShown = 0;
 
     levels.forEach(level => {
-      const topics = TOPICS.topics.filter(t => t.level === level && topicMatchesSearch(t, currentSearch));
+      const groups = groupedByLevel(level, filtered);
+      const levelCount = groups.reduce((n, g) => n + g.items.length, 0);
+      if (levelCount === 0 && currentSearch) return;
+
       const zone = document.createElement("div");
       zone.className = `zone level-${level}`;
 
       const header = document.createElement("div");
       header.className = "zone-header";
-      header.innerHTML = `<span>${levelBadgeHtml(level)}</span><span class="zone-count">${topics.length} situation${topics.length === 1 ? "" : "s"}</span>`;
+      header.innerHTML = `<span>${levelBadgeHtml(level)}</span><span class="zone-count">${levelCount} situation${levelCount === 1 ? "" : "s"}</span>`;
       zone.appendChild(header);
 
-      const tilesWrap = document.createElement("div");
-      tilesWrap.className = "zone-tiles" + (topics.length === 0 ? " empty" : "");
+      const zoneBody = document.createElement("div");
+      zoneBody.className = "zone-body";
 
-      topics.forEach((topic, i) => {
-        totalShown++;
-        const tile = document.createElement("button");
-        tile.type = "button";
-        tile.className = `tile level-${level}`;
-        if (i % 5 === 0) tile.classList.add("shade-1");
-        else if (i % 4 === 0) tile.classList.add("shade-3");
-        tile.style.flexGrow = String(Math.max(topic.weight || 1, 1));
-        tile.setAttribute("role", "listitem");
-        tile.setAttribute("aria-label", topic.title);
-        tile.innerHTML = `<span class="tile-title">${escapeHtml(topic.title)}</span><span class="tile-meta">${topic.category}</span>`;
-        tile.addEventListener("click", () => openTopicDetail(topic.id));
-        tilesWrap.appendChild(tile);
+      groups.forEach(group => {
+        totalShown += group.items.length;
+
+        const catHeader = document.createElement("div");
+        catHeader.className = "category-header";
+        catHeader.innerHTML = `${escapeHtml(group.category)} <span class="category-count">${group.items.length}</span>`;
+        zoneBody.appendChild(catHeader);
+
+        const grid = document.createElement("div");
+        grid.className = "tile-grid";
+
+        group.items.forEach(s => {
+          const tile = document.createElement("button");
+          tile.type = "button";
+          tile.className = `tile level-${level}`;
+          tile.setAttribute("aria-label", s.question);
+          const hint = s.referral && s.referral[0] ? s.referral[0] : "";
+          tile.innerHTML = `<span class="tile-title">${escapeHtml(s.question)}</span>${hint ? `<span class="tile-meta">${escapeHtml(hint)}</span>` : ""}`;
+          tile.addEventListener("click", () => openScenarioDetail(s.id));
+          grid.appendChild(tile);
+        });
+
+        zoneBody.appendChild(grid);
       });
 
-      zone.appendChild(tilesWrap);
+      zone.appendChild(zoneBody);
       container.appendChild(zone);
     });
 
@@ -157,100 +179,86 @@
   }
 
   // ---------------------------------------------------------------
-  // Detail panel (shared: map tiles + mentor mode + directory)
+  // Detail drawer (shared: map tiles + mentor mode + directory)
   // ---------------------------------------------------------------
-  function renderResourceCard(resourceId) {
-    const r = RESOURCE_MAP[resourceId];
-    if (!r) return "";
-    const fields = ["location", "hours", "phone", "email", "website"]
-      .filter(key => r[key])
-      .map(key => `<span><span class="sr-only">${RESOURCE_FIELD_LABELS[key]}: </span>${icon(RESOURCE_FIELD_ICONS[key])}${escapeHtml(r[key])}</span>`);
-
-    const bring = (r.whatToBring && r.whatToBring.length)
-      ? `<div class="bring-tags">${r.whatToBring.map(b => `<span class="bring-tag">${icon("task_alt")}${escapeHtml(b)}</span>`).join("")}</div>`
-      : "";
-
+  function renderResourceBlock(r) {
     return `
       <div class="resource-card">
-        <h4>${escapeHtml(r.name)}${r.needsInfo ? `<span class="needs-info">${icon("flag")}STAFF: ADD INFO</span>` : ""}</h4>
-        <div class="res-full">${escapeHtml(r.fullName || "")}</div>
-        <p>${escapeHtml(r.description || "")}</p>
-        ${bring}
-        ${fields.length ? `<div class="resource-fields">${fields.join("")}</div>` : ""}
+        <h4>
+          <a href="${escapeHtml(r.url)}" target="_blank" rel="noopener">${escapeHtml(r.name)}${icon("open_in_new")}</a>
+        </h4>
+        ${r.contact ? `<p>${escapeHtml(r.contact)}</p>` : ""}
       </div>`;
   }
 
-  function renderTopicDetail(topic) {
-    const level = topic.level;
+  function renderScenarioDetail(s) {
+    const level = s.level;
     let extra = "";
 
     if (level === "green") {
       extra = `
         <div class="detail-section">
-          <h3>${icon("route")}How to Respond</h3>
+          <h3>${icon("route")}General Approach</h3>
           <div class="formula-row">
-            ${TOPICS.greenFormula.map(f => `<span class="formula-step">${escapeHtml(f.step)}</span>`).join(icon("arrow_forward"))}
+            ${GREEN_FORMULA.map(step => `<span class="formula-step">${escapeHtml(step)}</span>`).join(icon("arrow_forward"))}
           </div>
         </div>`;
     } else if (level === "yellow") {
       extra = `
         <div class="detail-section">
-          <h3>${icon("route")}How to Respond</h3>
+          <h3>${icon("route")}General Approach</h3>
           <div class="formula-row">
-            ${TOPICS.yellowFormula.map(f => `<span class="formula-step">${escapeHtml(f.step)}</span>`).join(icon("arrow_forward"))}
+            ${YELLOW_FORMULA.map(step => `<span class="formula-step">${escapeHtml(step)}</span>`).join(icon("arrow_forward"))}
           </div>
-          <p style="color:var(--text-dim);font-size:.88rem;">${escapeHtml(TOPICS.yellowRule)}</p>
+          <p style="color:var(--text-dim);font-size:.88rem;">${YELLOW_RULE}</p>
         </div>`;
     } else if (level === "red") {
-      const proto = TOPICS.redProtocol;
       extra = `
         <div class="detail-section">
-          <h3>${icon("emergency")}Immediate Action</h3>
-          <div class="action-box">${icon("priority_high")}<span>${escapeHtml(topic.action || proto.rule)}</span></div>
-        </div>
-        <div class="detail-section">
           <div class="dodont">
-            <div class="do"><h4>${icon("check_circle")}Do</h4><ul>${proto.dos.map(d => `<li>${escapeHtml(d)}</li>`).join("")}</ul></div>
-            <div class="dont"><h4>${icon("cancel")}Don't</h4><ul>${proto.donts.map(d => `<li>${escapeHtml(d)}</li>`).join("")}</ul></div>
+            <div class="do"><h4>${icon("check_circle")}Do</h4><ul>${RED_PROTOCOL.dos.map(d => `<li>${escapeHtml(d)}</li>`).join("")}</ul></div>
+            <div class="dont"><h4>${icon("cancel")}Don't</h4><ul>${RED_PROTOCOL.donts.map(d => `<li>${escapeHtml(d)}</li>`).join("")}</ul></div>
           </div>
         </div>`;
     }
 
-    const quotes = (topic.studentQuotes || []).map(q => `<li>${icon("format_quote")}<span>${escapeHtml(q)}</span></li>`).join("");
-    const resources = (topic.resources || []).map(renderResourceCard).join("");
+    const referralChips = (s.referral || []).map(r => `<span class="bring-tag">${icon("assignment_turned_in")}${escapeHtml(r)}</span>`).join("");
+    const resources = (s.resources || []).map(renderResourceBlock).join("");
 
     return `
       <span class="badge level-${level}">${levelBadgeHtml(level)}</span>
-      <h2 id="detailTitle">${escapeHtml(topic.title)}</h2>
-      <p style="color:var(--text-dim);margin:0 0 4px;">${escapeHtml(topic.category)}</p>
+      <h2 id="detailTitle">${escapeHtml(s.question)}</h2>
+      <p style="color:var(--text-dim);margin:0 0 4px;">${escapeHtml(s.category)} &middot; Scenario ${s.num}</p>
 
-      <div class="detail-section">
-        <h3>${icon("chat_bubble")}Things Students Might Say</h3>
-        <ul class="quote-list">${quotes}</ul>
-      </div>
-
-      <div class="detail-section">
-        <h3>${icon("lightbulb")}Why This Path</h3>
-        <p>${escapeHtml(topic.why || "")}</p>
-      </div>
-
-      ${extra}
+      ${level === "red" ? `<div class="detail-section"><div class="action-box">${icon("priority_high")}<span>${escapeHtml(s.action)}</span></div></div>` : ""}
 
       <div class="detail-section">
         <div class="script-box">
-          <div class="script-label">${icon("record_voice_over")}Peer Mentor Script</div>
-          "${escapeHtml(topic.mentorScript || "")}"
+          <div class="script-label">${icon("record_voice_over")}Suggested Mentor Response</div>
+          "${escapeHtml(s.response)}"
         </div>
       </div>
 
-      ${resources ? `<div class="detail-section"><h3>${icon("support_agent")}Recommended Resource${(topic.resources || []).length > 1 ? "s" : ""}</h3>${resources}</div>` : ""}
+      ${level !== "red" ? `
+      <div class="detail-section">
+        <h3>${icon("checklist")}Suggested Mentor Action</h3>
+        <p>${escapeHtml(s.action)}</p>
+      </div>` : ""}
+
+      ${extra}
+
+      ${referralChips ? `<div class="detail-section"><h3>${icon("label")}Referral / Resource</h3><div class="bring-tags">${referralChips}</div></div>` : ""}
+
+      ${resources ? `<div class="detail-section"><h3>${icon("support_agent")}Contact${(s.resources || []).length > 1 ? "s" : ""}</h3>${resources}</div>` : ""}
+
+      ${s.followUp ? `<div class="detail-section"><h3>${icon("fact_check")}Follow-Up</h3><p>${escapeHtml(s.followUp)}</p></div>` : ""}
     `;
   }
 
-  function openTopicDetail(topicId) {
-    const topic = TOPICS.topics.find(t => t.id === topicId);
-    if (!topic) return;
-    $("#detailContent").innerHTML = renderTopicDetail(topic);
+  function openScenarioDetail(id) {
+    const s = scenarioById(id);
+    if (!s) return;
+    $("#detailContent").innerHTML = renderScenarioDetail(s);
     $("#detailOverlay").hidden = false;
     $("#detailClose").focus();
   }
@@ -272,42 +280,34 @@
   // ---------------------------------------------------------------
   // Peer Mentor Mode (search by student quote)
   // ---------------------------------------------------------------
-  function scoreTopic(topic, query) {
+  function scoreScenario(s, query) {
     const q = query.toLowerCase().trim();
-    if (!q) return { score: 0, quote: null };
+    if (!q) return 0;
     const qWords = q.split(/\s+/).filter(w => w.length > 2);
-    let best = { score: 0, quote: null };
+    const ql = s.question.toLowerCase();
 
-    (topic.studentQuotes || []).forEach(quote => {
-      const ql = quote.toLowerCase();
-      let score = 0;
-      if (ql.includes(q)) score += 10;
-      qWords.forEach(w => { if (ql.includes(w)) score += 1; });
-      if (score > best.score) best = { score, quote };
-    });
+    let score = 0;
+    if (ql.includes(q)) score += 10;
+    qWords.forEach(w => { if (ql.includes(w)) score += 1; });
 
-    // also check title/category as a lighter-weight signal
-    const titleLower = (topic.title + " " + topic.category).toLowerCase();
-    let titleScore = 0;
-    if (titleLower.includes(q)) titleScore += 4;
-    qWords.forEach(w => { if (titleLower.includes(w)) titleScore += 0.5; });
-    best.score += titleScore;
+    const secondary = (s.category + " " + s.referral.join(" ")).toLowerCase();
+    if (secondary.includes(q)) score += 3;
+    qWords.forEach(w => { if (secondary.includes(w)) score += 0.4; });
 
-    return best;
+    return score;
   }
 
-  function renderMentorCard(topic, matchInfo) {
-    const level = topic.level;
-    const resourceNames = (topic.resources || []).map(id => RESOURCE_MAP[id]?.name).filter(Boolean);
+  function renderMentorCard(s, score) {
+    const level = s.level;
+    const resourceNames = (s.resources || []).map(r => r.name);
     return `
-      <div class="mentor-card level-${level}" data-topic="${topic.id}">
+      <div class="mentor-card level-${level}" data-scenario="${s.id}">
         <span class="badge level-${level}">${levelBadgeHtml(level)}</span>
-        <h3>${escapeHtml(topic.title)}</h3>
-        ${matchInfo.quote ? `<div class="matched-quote">Closest match: "${escapeHtml(matchInfo.quote)}"</div>` : ""}
-        <p>${escapeHtml(topic.why || "")}</p>
+        <h3>${escapeHtml(s.question)}</h3>
+        <p class="matched-quote">${escapeHtml(s.category)}</p>
         <div class="script-box">
           <div class="script-label">${icon("record_voice_over")}Suggested Response</div>
-          "${escapeHtml(topic.mentorScript || "")}"
+          "${escapeHtml(s.response)}"
         </div>
         ${resourceNames.length ? `<p style="margin-top:10px;"><b>Suggested resources:</b> ${resourceNames.map(escapeHtml).join(", ")}</p>` : ""}
         <span class="go-link">Full guidance ${icon("arrow_forward")}</span>
@@ -324,23 +324,23 @@
         results.innerHTML = `<div class="mentor-empty">Start typing what the student said, and we'll suggest the closest situations, scripts, and referrals.</div>`;
         return;
       }
-      const scored = TOPICS.topics
-        .map(t => ({ topic: t, match: scoreTopic(t, q) }))
-        .filter(x => x.match.score > 0)
+      const scored = SCENARIOS
+        .map(s => ({ s, score: scoreScenario(s, q) }))
+        .filter(x => x.score > 0)
         .sort((a, b) => {
           // Prioritize red/yellow slightly when scores are close, since missing a red flag is costlier than a false positive
           const levelWeight = { red: 0.6, yellow: 0.3, green: 0 };
-          return (b.match.score + levelWeight[b.topic.level]) - (a.match.score + levelWeight[a.topic.level]);
+          return (b.score + levelWeight[b.s.level]) - (a.score + levelWeight[a.s.level]);
         })
-        .slice(0, 5);
+        .slice(0, 6);
 
       if (scored.length === 0) {
         results.innerHTML = `<div class="mentor-empty">No close match yet. Try key words from what the student said (e.g. "roommate", "exam", "unsafe").</div>`;
         return;
       }
-      results.innerHTML = scored.map(x => renderMentorCard(x.topic, x.match)).join("");
+      results.innerHTML = scored.map(x => renderMentorCard(x.s, x.score)).join("");
       $$(".mentor-card", results).forEach(card => {
-        card.addEventListener("click", () => openTopicDetail(card.dataset.topic));
+        card.addEventListener("click", () => openScenarioDetail(card.dataset.scenario));
       });
     }
 
@@ -349,11 +349,22 @@
   }
 
   // ---------------------------------------------------------------
-  // Resource directory
+  // Resource directory (deduplicated across all 150 scenarios)
   // ---------------------------------------------------------------
+  function buildResourceDirectory() {
+    const seen = new Map();
+    SCENARIOS.forEach(s => {
+      (s.resources || []).forEach(r => {
+        const key = (r.name + "|" + r.url).toLowerCase();
+        if (!seen.has(key)) seen.set(key, r);
+      });
+    });
+    return Array.from(seen.values()).sort((a, b) => a.name.localeCompare(b.name));
+  }
+
   function initDirectory() {
     const grid = $("#directoryGrid");
-    grid.innerHTML = RESOURCES.map(r => renderResourceCard(r.id)).join("");
+    grid.innerHTML = buildResourceDirectory().map(renderResourceBlock).join("");
   }
 
   // ---------------------------------------------------------------

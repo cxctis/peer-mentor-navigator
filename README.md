@@ -1,80 +1,99 @@
 # Peer Mentor Resource Navigator
 
-A single-page, static, click-to-decide map for peer mentors and first-year students. Instead of reading a long handbook, click a situation and immediately see: why it belongs where it does, what a peer mentor should say, and which resource to refer to (with location/contact info once staff fill it in).
+A single-page, static, click-to-decide map for peer mentors and first-year students. Instead of reading a long handbook, click a situation and immediately see: what a peer mentor should say, what to do, and exactly who to refer to (real RIT contacts — phone, email, website).
 
-No build step, no database, no backend. Just HTML/CSS/JS reading two JSON files. Anyone comfortable editing a JSON file can maintain the content.
+No build step, no database, no backend. Just HTML/CSS/JS reading one JSON file. Anyone comfortable editing a spreadsheet or a JSON file can maintain the content.
 
 ## Structure
 
 ```
-index.html          the whole app shell
-assets/style.css     styling (light + dark mode aware, mobile responsive)
-assets/app.js         rendering, search, filters, peer mentor mode
-data/topics.json      the 33 situation tiles (green/yellow/red), grouped by zone
-data/resources.json   the resource directory (NASC, NLC, DAS, Advisor, etc.)
+index.html            the whole app shell
+assets/style.css       styling (light theme, RIT brand colors, mobile responsive)
+assets/app.js           rendering, search, filters, peer mentor mode
+data/scenarios.json     all 150 scenarios — the single source of truth
 ```
+
+`data/scenarios.json` is generated from the maintained source spreadsheet, **`Common_Questions_Answers_GYR_Resource_Map(Scenarios).csv`** (Green/Yellow/Red — 50 scenarios each). Each row is one independent question; nothing is grouped or merged. See "Regenerating from the spreadsheet" below.
 
 ## Views
 
-- **Explore Map** — three color-coded zones (🟢 self-navigate, 🟡 support + refer, 🔴 immediate staff/crisis). Tile size reflects how often that situation comes up. Click a tile for the full card: sample student quotes, the "why," a mentor script, a response formula (or crisis protocol for red), and recommended resources.
-- **Peer Mentor Mode** — type or paste what a student said (e.g. *"I failed my exam"*), and the top matching situations surface with their scripts and referrals. Red-level matches are boosted so an urgent situation isn't buried under a green one that happens to share a word.
-- **Resource Directory** — every resource referenced across the map in one grid.
-
-## ⚠️ Before you publish this for real use
-
-The source handbook this was built from didn't include actual room numbers, phone numbers, emails, or office hours — so those fields are **empty placeholders** in `data/resources.json`, each flagged with `"needsInfo": true` (shows a **STAFF: ADD INFO** badge on the card). Fill in real, current contact information for every resource before sharing this with mentors or students. Two universal numbers are pre-filled because they're safe, national, and unlikely to change: **911** (emergency) and **988** (Suicide & Crisis Lifeline).
-
-This site is an internal training/reference tool, not an official emergency service — the footer disclaimer says so on every page. Don't remove that disclaimer.
+- **Explore Map** — three color-coded zones (green = self-navigate, yellow = support + refer, red = immediate staff/crisis). Inside each zone, scenarios are organized under their category as a subheading purely for scannability — **every scenario is still its own separate card** with its own full answer. Click a card for the complete detail: the suggested mentor response, the suggested action, a response formula (or Do/Don't crisis protocol for red), the referral tag(s), and the real resource contact(s) with a clickable link.
+- **Peer Mentor Mode** — type or paste what a student said (e.g. *"I failed my exam"*), and the closest-matching scenario(s) surface with their scripts and referrals. Red-level matches are boosted so an urgent situation isn't buried under a green one that happens to share a word.
+- **Resource Directory** — every resource referenced across all 150 scenarios, deduplicated into one grid, each linking out to its real RIT page.
 
 ## Editing content
 
-### Add or edit a resource
-Open `data/resources.json` and add/edit an object:
+### Regenerating from the spreadsheet (recommended)
+The easiest way to add, edit, or correct scenarios is to edit the source CSV and re-run the parser — that keeps a single spreadsheet as the source of truth instead of hand-editing JSON.
 
-```json
-{
-  "id": "nasc",
-  "name": "NASC",
-  "fullName": "NASC — Academic Support Center",
-  "category": "Academic Support",
-  "description": "One or two sentences on what this resource does and when to send someone here.",
-  "whatToBring": ["Laptop", "Homework"],
-  "location": "Building / Room",
-  "hours": "Mon–Fri 9am–5pm",
-  "phone": "",
-  "email": "",
-  "website": "",
-  "needsInfo": false
-}
+Expected CSV columns (in this order): `Level, Category, Scenario #, Student Question/Concern, Suggested Mentor Response, Referral / Resource, Department Website / Contact, Primary Link, Suggested Mentor Action, Follow-up / Documentation`.
+
+- **Referral / Resource** — short resource names, separated by `;`.
+- **Department Website / Contact** — one resource per line (within the same cell), each formatted as `Name - URL - Contact details`.
+
+Then regenerate `data/scenarios.json`:
+
+```bash
+python -c "
+import csv, json, re
+
+def slugify(s):
+    return re.sub(r'[^a-z0-9]+', '-', s.lower()).strip('-')
+
+with open('Common_Questions_Answers_GYR_Resource_Map(Scenarios).csv', encoding='utf-8-sig', newline='') as f:
+    rows = list(csv.reader(f))[1:]
+
+scenarios, seen = [], set()
+for level, category, num, question, response, referral_raw, contact_cell, primary_link, action, followup in rows:
+    resources = []
+    for line in filter(None, (l.strip() for l in contact_cell.split(chr(10)))):
+        name, url, contact = line.split(' - ', 2)
+        resources.append({'name': name.strip(), 'url': url.strip(), 'contact': contact.strip()})
+    base_id = f'{level.strip().lower()}-{slugify(category)}-{int(num)}'
+    sid, n = base_id, 2
+    while sid in seen:
+        sid, n = f'{base_id}-{n}', n + 1
+    seen.add(sid)
+    scenarios.append({
+        'id': sid, 'level': level.strip().lower(), 'category': category.strip(), 'num': int(num),
+        'question': question.strip(), 'response': response.strip(),
+        'referral': [r.strip() for r in referral_raw.split(';') if r.strip()],
+        'resources': resources, 'primaryLink': primary_link.strip(),
+        'action': action.strip(), 'followUp': followup.strip(),
+    })
+
+json.dump(scenarios, open('data/scenarios.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
+print(len(scenarios), 'scenarios written')
+"
 ```
 
-Set `"needsInfo": false` once real contact info is filled in — that removes the warning badge.
-
-### Add or edit a situation tile
-Open `data/topics.json`, find the `topics` array, and add/edit an object:
+### Editing `data/scenarios.json` directly
+Each entry looks like this:
 
 ```json
 {
-  "id": "yellow-example",
+  "id": "yellow-roommate-housing-concerns-1",
   "level": "green | yellow | red",
-  "title": "Short tile title",
-  "category": "Sub-category label shown under the title",
-  "weight": 5,
-  "studentQuotes": ["Things a student might actually say"],
-  "why": "One or two sentences on why this belongs at this level.",
-  "mentorScript": "A sample line a mentor could say.",
-  "action": "Red-level only: the concrete immediate action to take.",
-  "resources": ["nasc", "advisor"],
-  "whatToBring": []
+  "category": "Category label shown as the subheading",
+  "num": 1,
+  "question": "Exactly what the student says — this is the card title.",
+  "response": "The suggested mentor script, shown in quotes.",
+  "referral": ["Short resource name(s), shown as a chip"],
+  "resources": [
+    { "name": "Full department/resource name", "url": "https://…", "contact": "Phone/email/hours as free text" }
+  ],
+  "primaryLink": "https://…",
+  "action": "The suggested mentor action — what to actually do.",
+  "followUp": "Any documentation/follow-up note."
 }
 ```
 
-- `level` controls which zone (and color) the tile appears in, and which guidance formula shows in the detail panel (Green's 4-step formula, Yellow's Listen→Validate→Explore→Refer→Follow Up, or Red's Do/Don't crisis protocol — these shared formulas live at the top of `topics.json` and don't need to be repeated per-tile).
-- `weight` is relative tile size within its zone — roughly "how often this comes up." Any positive number works; there's no fixed scale.
-- `resources` is a list of resource `id`s from `resources.json`, in the order you want them to appear.
-- The search box and Peer Mentor Mode both match against `title`, `category`, and every string in `studentQuotes` — the more realistic phrasings you add, the better matching gets.
+- `level` controls which zone (and color) the card appears in, and which guidance shows in the detail drawer (Green's 4-step formula, Yellow's Listen→Validate→Explore→Refer→Follow Up, or Red's Do/Don't crisis protocol — these are shared, general guidance defined once in `app.js`, not repeated per-row).
+- `category` is purely an organizational subheading within its zone — it does not merge or combine scenarios. Every scenario renders as its own clickable card regardless of category.
+- The search box and Peer Mentor Mode both match against `question`, `category`, `response`, `referral`, and resource `name`s.
+- The Resource Directory tab is built automatically by deduplicating every `resources[]` entry across all 150 scenarios (matched by name + URL) — no separate file to keep in sync.
 
-No other files need to change. Both JSON files are validated as plain JSON — if the site stops loading data after an edit, check for a missing comma or quote (any JSON validator will catch it).
+`data/scenarios.json` is validated as plain JSON — if the site stops loading data after an edit, check for a missing comma or quote (any JSON validator will catch it).
 
 ## Running locally
 

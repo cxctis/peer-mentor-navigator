@@ -1,0 +1,3860 @@
+[
+  {
+    "id": "green-college-transition-1",
+    "level": "green",
+    "category": "College Transition",
+    "num": 1,
+    "question": "How do I make friends here?",
+    "response": "A lot of students wonder that when they first arrive. One of the easiest ways is to attend events, join a club, or keep showing up to the same places consistently. It usually takes time. Most students don't build close friendships in the first week.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "Campus Life / Clubs and Organizations",
+        "url": "https://www.rit.edu/clubs-and-experiences",
+        "contact": "Campus Life clubs: clubs@rit.edu; 585-475-4111"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/clubs-and-experiences",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "green-college-transition-2",
+    "level": "green",
+    "category": "College Transition",
+    "num": 2,
+    "question": "Is it normal to feel nervous about college?",
+    "response": "Absolutely. Many students feel excited and nervous at the same time. Starting college means adjusting to new expectations, people, and routines. You're definitely not the only one feeling that way.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "Campus Life / Clubs and Organizations",
+        "url": "https://www.rit.edu/clubs-and-experiences",
+        "contact": "Campus Life clubs: clubs@rit.edu; 585-475-4111"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/clubs-and-experiences",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "green-college-transition-3",
+    "level": "green",
+    "category": "College Transition",
+    "num": 3,
+    "question": "Everyone already seems to know each other.",
+    "response": "It can look that way, but many students are feeling exactly what you're feeling. Sometimes people appear comfortable even when they're still adjusting themselves.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "Campus Life / Clubs and Organizations",
+        "url": "https://www.rit.edu/clubs-and-experiences",
+        "contact": "Campus Life clubs: clubs@rit.edu; 585-475-4111"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/clubs-and-experiences",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "green-college-transition-4",
+    "level": "green",
+    "category": "College Transition",
+    "num": 4,
+    "question": "How long did it take you to feel comfortable here?",
+    "response": "For me, it didn't happen right away. It happened gradually as I got involved, met people, and learned my routine. Everyone adjusts at a different pace.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "Campus Life / Clubs and Organizations",
+        "url": "https://www.rit.edu/clubs-and-experiences",
+        "contact": "Campus Life clubs: clubs@rit.edu; 585-475-4111"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/clubs-and-experiences",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "green-college-transition-5",
+    "level": "green",
+    "category": "College Transition",
+    "num": 5,
+    "question": "I'm homesick.",
+    "response": "That's very common, especially during the first semester. Staying connected with home is important, but it's also helpful to build some routines and connections here so campus starts feeling more familiar.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "Campus Life / Clubs and Organizations",
+        "url": "https://www.rit.edu/clubs-and-experiences",
+        "contact": "Campus Life clubs: clubs@rit.edu; 585-475-4111"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/clubs-and-experiences",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "green-study-habits-6",
+    "level": "green",
+    "category": "Study Habits",
+    "num": 6,
+    "question": "How do you study for exams?",
+    "response": "Different methods work for different people, but I try not to wait until the last minute. I break material into smaller pieces and review it over several days.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "RIT Service Center / ITS Service Desk",
+        "url": "https://help.rit.edu/",
+        "contact": "585-475-5000; ITS support: https://www.rit.edu/its/support"
+      },
+      {
+        "name": "NTID Learning Center (NLC)",
+        "url": "https://www.rit.edu/ntid/learningcenter/",
+        "contact": "Peterson Hall 50B-A121; NLC Services: https://www.rit.edu/ntid/learningcenter/nlc-services; NLCdept@rit.edu / ntidol@rit.edu"
+      },
+      {
+        "name": "NTID Academic Support Center (NASC)",
+        "url": "https://www.rit.edu/ntid/support-services/other-colleges",
+        "contact": "Use NASC team-provided contact/location once confirmed; NTID academic support services page listed as placeholder."
+      }
+    ],
+    "primaryLink": "https://help.rit.edu/",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "green-study-habits-7",
+    "level": "green",
+    "category": "Study Habits",
+    "num": 7,
+    "question": "What's a good way to stay organized?",
+    "response": "What helped me was putting all my deadlines in one place and checking them every day. Some students use planners, calendars, apps, or reminders. The important thing is finding one system and using it consistently.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "RIT Service Center / ITS Service Desk",
+        "url": "https://help.rit.edu/",
+        "contact": "585-475-5000; ITS support: https://www.rit.edu/its/support"
+      },
+      {
+        "name": "NTID Learning Center (NLC)",
+        "url": "https://www.rit.edu/ntid/learningcenter/",
+        "contact": "Peterson Hall 50B-A121; NLC Services: https://www.rit.edu/ntid/learningcenter/nlc-services; NLCdept@rit.edu / ntidol@rit.edu"
+      },
+      {
+        "name": "NTID Academic Support Center (NASC)",
+        "url": "https://www.rit.edu/ntid/support-services/other-colleges",
+        "contact": "Use NASC team-provided contact/location once confirmed; NTID academic support services page listed as placeholder."
+      }
+    ],
+    "primaryLink": "https://help.rit.edu/",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "green-study-habits-8",
+    "level": "green",
+    "category": "Study Habits",
+    "num": 8,
+    "question": "I procrastinate a lot.",
+    "response": "A lot of students struggle with that. Sometimes breaking an assignment into smaller tasks makes it feel more manageable. Starting with one small task is often easier than trying to tackle everything at once.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "RIT Service Center / ITS Service Desk",
+        "url": "https://help.rit.edu/",
+        "contact": "585-475-5000; ITS support: https://www.rit.edu/its/support"
+      },
+      {
+        "name": "NTID Learning Center (NLC)",
+        "url": "https://www.rit.edu/ntid/learningcenter/",
+        "contact": "Peterson Hall 50B-A121; NLC Services: https://www.rit.edu/ntid/learningcenter/nlc-services; NLCdept@rit.edu / ntidol@rit.edu"
+      },
+      {
+        "name": "NTID Academic Support Center (NASC)",
+        "url": "https://www.rit.edu/ntid/support-services/other-colleges",
+        "contact": "Use NASC team-provided contact/location once confirmed; NTID academic support services page listed as placeholder."
+      }
+    ],
+    "primaryLink": "https://help.rit.edu/",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "green-study-habits-9",
+    "level": "green",
+    "category": "Study Habits",
+    "num": 9,
+    "question": "How soon should I start assignments?",
+    "response": "Earlier than you think. Even if you don't finish immediately, starting early gives you more time to ask questions and avoid last-minute stress.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "RIT Service Center / ITS Service Desk",
+        "url": "https://help.rit.edu/",
+        "contact": "585-475-5000; ITS support: https://www.rit.edu/its/support"
+      },
+      {
+        "name": "NTID Learning Center (NLC)",
+        "url": "https://www.rit.edu/ntid/learningcenter/",
+        "contact": "Peterson Hall 50B-A121; NLC Services: https://www.rit.edu/ntid/learningcenter/nlc-services; NLCdept@rit.edu / ntidol@rit.edu"
+      },
+      {
+        "name": "NTID Academic Support Center (NASC)",
+        "url": "https://www.rit.edu/ntid/support-services/other-colleges",
+        "contact": "Use NASC team-provided contact/location once confirmed; NTID academic support services page listed as placeholder."
+      },
+      {
+        "name": "Faculty Office Hours / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish to schedule with advisors/instructors when available."
+      }
+    ],
+    "primaryLink": "https://help.rit.edu/",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "green-study-habits-10",
+    "level": "green",
+    "category": "Study Habits",
+    "num": 10,
+    "question": "Where do you usually study?",
+    "response": "It depends on the type of work I'm doing. Sometimes I need a quiet space, and other times I work better around other people. You might need to experiment to find what works best for you.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "RIT Service Center / ITS Service Desk",
+        "url": "https://help.rit.edu/",
+        "contact": "585-475-5000; ITS support: https://www.rit.edu/its/support"
+      },
+      {
+        "name": "NTID Learning Center (NLC)",
+        "url": "https://www.rit.edu/ntid/learningcenter/",
+        "contact": "Peterson Hall 50B-A121; NLC Services: https://www.rit.edu/ntid/learningcenter/nlc-services; NLCdept@rit.edu / ntidol@rit.edu"
+      },
+      {
+        "name": "NTID Academic Support Center (NASC)",
+        "url": "https://www.rit.edu/ntid/support-services/other-colleges",
+        "contact": "Use NASC team-provided contact/location once confirmed; NTID academic support services page listed as placeholder."
+      }
+    ],
+    "primaryLink": "https://help.rit.edu/",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "green-academic-engagement-11",
+    "level": "green",
+    "category": "Academic Engagement",
+    "num": 11,
+    "question": "I don't understand my syllabus.",
+    "response": "The syllabus can feel overwhelming at first. I usually start by finding major assignments, exam dates, attendance expectations, and office hours.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "NTID Academic Support Center (NASC)",
+        "url": "https://www.rit.edu/ntid/support-services/other-colleges",
+        "contact": "Use NASC team-provided contact/location once confirmed; NTID academic support services page listed as placeholder."
+      },
+      {
+        "name": "Faculty Office Hours / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish to schedule with advisors/instructors when available."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/ntid/support-services/other-colleges",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "green-academic-engagement-12",
+    "level": "green",
+    "category": "Academic Engagement",
+    "num": 12,
+    "question": "What are office hours?",
+    "response": "Office hours are times when professors set aside time to meet with students. They're there to answer questions and help students succeed.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "Faculty Office Hours / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish to schedule with advisors/instructors when available."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/starfish/student/",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "green-academic-engagement-13",
+    "level": "green",
+    "category": "Academic Engagement",
+    "num": 13,
+    "question": "Is it okay to ask my professor questions?",
+    "response": "Definitely. Professors expect students to ask questions when they need clarification.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "Course Instructor / Faculty Office Hours",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use course syllabus, email instructor, or Starfish if available."
+      },
+      {
+        "name": "Faculty Office Hours / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish to schedule with advisors/instructors when available."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/starfish/student/",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "green-academic-engagement-14",
+    "level": "green",
+    "category": "Academic Engagement",
+    "num": 14,
+    "question": "What should I do if I don't understand an assignment?",
+    "response": "A good first step is identifying exactly what's confusing. Then you can ask your professor specific questions instead of saying you don't understand the whole thing.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "NTID Academic Support Center (NASC)",
+        "url": "https://www.rit.edu/ntid/support-services/other-colleges",
+        "contact": "Use NASC team-provided contact/location once confirmed; NTID academic support services page listed as placeholder."
+      },
+      {
+        "name": "Faculty Office Hours / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish to schedule with advisors/instructors when available."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/ntid/support-services/other-colleges",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "green-academic-engagement-15",
+    "level": "green",
+    "category": "Academic Engagement",
+    "num": 15,
+    "question": "What does participation mean in college?",
+    "response": "It depends on the class. Sometimes it means joining discussions, asking questions, attending regularly, or contributing to group activities.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "Faculty Office Hours / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish to schedule with advisors/instructors when available."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/starfish/student/",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "green-campus-navigation-16",
+    "level": "green",
+    "category": "Campus Navigation",
+    "num": 16,
+    "question": "Where can I study?",
+    "response": "There are several options on campus. The NTID Learning Center is one example. Some students prefer libraries, study lounges, or other academic spaces.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "NTID Learning Center (NLC)",
+        "url": "https://www.rit.edu/ntid/learningcenter/",
+        "contact": "Peterson Hall 50B-A121; NLC Services: https://www.rit.edu/ntid/learningcenter/nlc-services; NLCdept@rit.edu / ntidol@rit.edu"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/ntid/learningcenter/",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "green-campus-navigation-17",
+    "level": "green",
+    "category": "Campus Navigation",
+    "num": 17,
+    "question": "Where can I find a computer?",
+    "response": "There are computer resources available on campus, including the NTID Learning Center and various computer labs.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "NTID Learning Center (NLC)",
+        "url": "https://www.rit.edu/ntid/learningcenter/",
+        "contact": "Peterson Hall 50B-A121; NLC Services: https://www.rit.edu/ntid/learningcenter/nlc-services; NLCdept@rit.edu / ntidol@rit.edu"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/ntid/learningcenter/",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "green-campus-navigation-18",
+    "level": "green",
+    "category": "Campus Navigation",
+    "num": 18,
+    "question": "Where can I print something?",
+    "response": "There are printing locations across campus. I can help you find the closest option.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "NTID Learning Center (NLC)",
+        "url": "https://www.rit.edu/ntid/learningcenter/",
+        "contact": "Peterson Hall 50B-A121; NLC Services: https://www.rit.edu/ntid/learningcenter/nlc-services; NLCdept@rit.edu / ntidol@rit.edu"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/ntid/learningcenter/",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "green-campus-navigation-19",
+    "level": "green",
+    "category": "Campus Navigation",
+    "num": 19,
+    "question": "What is NASC?",
+    "response": "NASC focuses on learning support. If you're looking for tutoring, study support, or help understanding course material, that's often a good resource.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "NTID Academic Support Center (NASC)",
+        "url": "https://www.rit.edu/ntid/support-services/other-colleges",
+        "contact": "Use NASC team-provided contact/location once confirmed; NTID academic support services page listed as placeholder."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/ntid/support-services/other-colleges",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "green-campus-navigation-20",
+    "level": "green",
+    "category": "Campus Navigation",
+    "num": 20,
+    "question": "What is NLC?",
+    "response": "NLC provides study space, computers, software, printing, and other academic resources. It's a useful place when you need the tools or environment to get work done.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "NTID Learning Center (NLC)",
+        "url": "https://www.rit.edu/ntid/learningcenter/",
+        "contact": "Peterson Hall 50B-A121; NLC Services: https://www.rit.edu/ntid/learningcenter/nlc-services; NLCdept@rit.edu / ntidol@rit.edu"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/ntid/learningcenter/",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "green-communication-self-advocacy-21",
+    "level": "green",
+    "category": "Communication & Self-Advocacy",
+    "num": 21,
+    "question": "How do I email a professor?",
+    "response": "Keep it professional, explain your question clearly, and include enough information so the professor understands what you're asking about.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "Course Instructor / Faculty Office Hours",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use course syllabus, email instructor, or Starfish if available."
+      },
+      {
+        "name": "Faculty Office Hours / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish to schedule with advisors/instructors when available."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/starfish/student/",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "green-communication-self-advocacy-22",
+    "level": "green",
+    "category": "Communication & Self-Advocacy",
+    "num": 22,
+    "question": "What if I ask a stupid question?",
+    "response": "Most questions aren't stupid. If you're confused, chances are other students are confused too.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "Campus Life / Clubs and Organizations",
+        "url": "https://www.rit.edu/clubs-and-experiences",
+        "contact": "Campus Life clubs: clubs@rit.edu; 585-475-4111"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/clubs-and-experiences",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "green-communication-self-advocacy-23",
+    "level": "green",
+    "category": "Communication & Self-Advocacy",
+    "num": 23,
+    "question": "I'm nervous talking to professors.",
+    "response": "That's common. It usually gets easier with practice. You don't have to be perfect. Most professors appreciate students who make an effort to communicate.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "Course Instructor / Faculty Office Hours",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use course syllabus, email instructor, or Starfish if available."
+      },
+      {
+        "name": "Faculty Office Hours / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish to schedule with advisors/instructors when available."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/starfish/student/",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "green-communication-self-advocacy-24",
+    "level": "green",
+    "category": "Communication & Self-Advocacy",
+    "num": 24,
+    "question": "What if I make a mistake?",
+    "response": "Making mistakes is part of learning. Everybody makes them. The important thing is learning from them and moving forward.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "Campus Life / Clubs and Organizations",
+        "url": "https://www.rit.edu/clubs-and-experiences",
+        "contact": "Campus Life clubs: clubs@rit.edu; 585-475-4111"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/clubs-and-experiences",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "green-communication-self-advocacy-25",
+    "level": "green",
+    "category": "Communication & Self-Advocacy",
+    "num": 25,
+    "question": "How do I ask for help?",
+    "response": "Start by describing what you're trying to do and what's getting in the way. You don't need all the answers before asking.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "Campus Life / Clubs and Organizations",
+        "url": "https://www.rit.edu/clubs-and-experiences",
+        "contact": "Campus Life clubs: clubs@rit.edu; 585-475-4111"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/clubs-and-experiences",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "green-belonging-confidence-26",
+    "level": "green",
+    "category": "Belonging & Confidence",
+    "num": 26,
+    "question": "What if I don't fit in?",
+    "response": "Many students worry about that when they begin college. Finding your place takes time, and there are many different communities on campus.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "Campus Life / Clubs and Organizations",
+        "url": "https://www.rit.edu/clubs-and-experiences",
+        "contact": "Campus Life clubs: clubs@rit.edu; 585-475-4111"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/clubs-and-experiences",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "green-belonging-confidence-27",
+    "level": "green",
+    "category": "Belonging & Confidence",
+    "num": 27,
+    "question": "Am I the only one struggling?",
+    "response": "Probably not. Many students experience challenges during their first semester. Struggling doesn't mean you don't belong here.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "Campus Life / Clubs and Organizations",
+        "url": "https://www.rit.edu/clubs-and-experiences",
+        "contact": "Campus Life clubs: clubs@rit.edu; 585-475-4111"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/clubs-and-experiences",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "green-belonging-confidence-28",
+    "level": "green",
+    "category": "Belonging & Confidence",
+    "num": 28,
+    "question": "How do people become confident?",
+    "response": "Confidence usually grows from experience. Most students build confidence by trying new things and realizing they can handle challenges.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "Campus Life / Clubs and Organizations",
+        "url": "https://www.rit.edu/clubs-and-experiences",
+        "contact": "Campus Life clubs: clubs@rit.edu; 585-475-4111"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/clubs-and-experiences",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "green-belonging-confidence-29",
+    "level": "green",
+    "category": "Belonging & Confidence",
+    "num": 29,
+    "question": "What if I don't know what I'm doing?",
+    "response": "Honestly, many first-year students feel that way. College comes with a learning curve.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "Campus Life / Clubs and Organizations",
+        "url": "https://www.rit.edu/clubs-and-experiences",
+        "contact": "Campus Life clubs: clubs@rit.edu; 585-475-4111"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/clubs-and-experiences",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "green-belonging-confidence-30",
+    "level": "green",
+    "category": "Belonging & Confidence",
+    "num": 30,
+    "question": "How do you balance everything?",
+    "response": "I'm still working on it. Most students are. Good routines help, but balance is something people keep adjusting over time.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "Campus Life / Clubs and Organizations",
+        "url": "https://www.rit.edu/clubs-and-experiences",
+        "contact": "Campus Life clubs: clubs@rit.edu; 585-475-4111"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/clubs-and-experiences",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "green-resource-awareness-31",
+    "level": "green",
+    "category": "Resource Awareness",
+    "num": 31,
+    "question": "How do I join a club?",
+    "response": "Let's look at student organizations together.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "Campus Life / Clubs and Organizations",
+        "url": "https://www.rit.edu/clubs-and-experiences",
+        "contact": "Campus Life clubs: clubs@rit.edu; 585-475-4111"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/clubs-and-experiences",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "green-resource-awareness-32",
+    "level": "green",
+    "category": "Resource Awareness",
+    "num": 32,
+    "question": "What events should I attend?",
+    "response": "Try a few different events and see what interests you.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "Campus Life / Clubs and Organizations",
+        "url": "https://www.rit.edu/clubs-and-experiences",
+        "contact": "Campus Life clubs: clubs@rit.edu; 585-475-4111"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/clubs-and-experiences",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "green-resource-awareness-33",
+    "level": "green",
+    "category": "Resource Awareness",
+    "num": 33,
+    "question": "Should I study with friends?",
+    "response": "It depends on whether they help you stay focused.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "NTID Learning Center (NLC)",
+        "url": "https://www.rit.edu/ntid/learningcenter/",
+        "contact": "Peterson Hall 50B-A121; NLC Services: https://www.rit.edu/ntid/learningcenter/nlc-services; NLCdept@rit.edu / ntidol@rit.edu"
+      },
+      {
+        "name": "Campus Life / Clubs and Organizations",
+        "url": "https://www.rit.edu/clubs-and-experiences",
+        "contact": "Campus Life clubs: clubs@rit.edu; 585-475-4111"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/ntid/learningcenter/",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "green-resource-awareness-34",
+    "level": "green",
+    "category": "Resource Awareness",
+    "num": 34,
+    "question": "How much sleep do students need?",
+    "response": "Enough to stay healthy and focused during classes.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "Campus Life / Clubs and Organizations",
+        "url": "https://www.rit.edu/clubs-and-experiences",
+        "contact": "Campus Life clubs: clubs@rit.edu; 585-475-4111"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/clubs-and-experiences",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "green-resource-awareness-35",
+    "level": "green",
+    "category": "Resource Awareness",
+    "num": 35,
+    "question": "How do students manage time?",
+    "response": "Most use some kind of planning system.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "Campus Life / Clubs and Organizations",
+        "url": "https://www.rit.edu/clubs-and-experiences",
+        "contact": "Campus Life clubs: clubs@rit.edu; 585-475-4111"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/clubs-and-experiences",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "green-resource-awareness-36",
+    "level": "green",
+    "category": "Resource Awareness",
+    "num": 36,
+    "question": "Is college harder than high school?",
+    "response": "Many students find it different rather than simply harder.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "Campus Life / Clubs and Organizations",
+        "url": "https://www.rit.edu/clubs-and-experiences",
+        "contact": "Campus Life clubs: clubs@rit.edu; 585-475-4111"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/clubs-and-experiences",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "green-resource-awareness-37",
+    "level": "green",
+    "category": "Resource Awareness",
+    "num": 37,
+    "question": "What should I bring to class?",
+    "response": "Usually your materials, notes, and a way to take notes.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "Campus Life / Clubs and Organizations",
+        "url": "https://www.rit.edu/clubs-and-experiences",
+        "contact": "Campus Life clubs: clubs@rit.edu; 585-475-4111"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/clubs-and-experiences",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "green-resource-awareness-38",
+    "level": "green",
+    "category": "Resource Awareness",
+    "num": 38,
+    "question": "What if I get lost on campus?",
+    "response": "That happens to many new students. Maps and asking for directions help.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "Campus Life / Clubs and Organizations",
+        "url": "https://www.rit.edu/clubs-and-experiences",
+        "contact": "Campus Life clubs: clubs@rit.edu; 585-475-4111"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/clubs-and-experiences",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "green-resource-awareness-39",
+    "level": "green",
+    "category": "Resource Awareness",
+    "num": 39,
+    "question": "How do I know if I'm doing okay?",
+    "response": "Look at your grades, attendance, and how comfortable you feel with the coursework.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "Campus Life / Clubs and Organizations",
+        "url": "https://www.rit.edu/clubs-and-experiences",
+        "contact": "Campus Life clubs: clubs@rit.edu; 585-475-4111"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/clubs-and-experiences",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "green-resource-awareness-40",
+    "level": "green",
+    "category": "Resource Awareness",
+    "num": 40,
+    "question": "What resources should every student know?",
+    "response": "NLC, NASC, faculty office hours, DAS, myAccess, and other academic support resources.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "Campus Life / Clubs and Organizations",
+        "url": "https://www.rit.edu/clubs-and-experiences",
+        "contact": "Campus Life clubs: clubs@rit.edu; 585-475-4111"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/clubs-and-experiences",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "green-resource-awareness-41",
+    "level": "green",
+    "category": "Resource Awareness",
+    "num": 41,
+    "question": "What is Starfish?",
+    "response": "It's a tool many students use for appointments and academic support connections.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "Faculty Office Hours / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish to schedule with advisors/instructors when available."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/starfish/student/",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "green-resource-awareness-42",
+    "level": "green",
+    "category": "Resource Awareness",
+    "num": 42,
+    "question": "How do I reserve study space?",
+    "response": "Different locations have different processes. We can look it up together.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "NTID Learning Center (NLC)",
+        "url": "https://www.rit.edu/ntid/learningcenter/",
+        "contact": "Peterson Hall 50B-A121; NLC Services: https://www.rit.edu/ntid/learningcenter/nlc-services; NLCdept@rit.edu / ntidol@rit.edu"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/ntid/learningcenter/",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "green-resource-awareness-43",
+    "level": "green",
+    "category": "Resource Awareness",
+    "num": 43,
+    "question": "Can I study in groups?",
+    "response": "Absolutely. Many students benefit from group study.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "NTID Learning Center (NLC)",
+        "url": "https://www.rit.edu/ntid/learningcenter/",
+        "contact": "Peterson Hall 50B-A121; NLC Services: https://www.rit.edu/ntid/learningcenter/nlc-services; NLCdept@rit.edu / ntidol@rit.edu"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/ntid/learningcenter/",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "green-resource-awareness-44",
+    "level": "green",
+    "category": "Resource Awareness",
+    "num": 44,
+    "question": "Should I meet people outside my major?",
+    "response": "That can help expand your network and experiences.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "Career Services and Co-op",
+        "url": "https://www.rit.edu/careerservices/",
+        "contact": "careerservices@rit.edu; 585-475-2301"
+      },
+      {
+        "name": "Academic Advisor / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish or assigned college/NTID advising contact."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/careerservices/",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "green-resource-awareness-45",
+    "level": "green",
+    "category": "Resource Awareness",
+    "num": 45,
+    "question": "How do students prepare for finals?",
+    "response": "Most start reviewing material before finals week arrives.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "Campus Life / Clubs and Organizations",
+        "url": "https://www.rit.edu/clubs-and-experiences",
+        "contact": "Campus Life clubs: clubs@rit.edu; 585-475-4111"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/clubs-and-experiences",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "green-resource-awareness-46",
+    "level": "green",
+    "category": "Resource Awareness",
+    "num": 46,
+    "question": "What makes students successful?",
+    "response": "Consistency, asking for help, and staying engaged.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "Campus Life / Clubs and Organizations",
+        "url": "https://www.rit.edu/clubs-and-experiences",
+        "contact": "Campus Life clubs: clubs@rit.edu; 585-475-4111"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/clubs-and-experiences",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "green-resource-awareness-47",
+    "level": "green",
+    "category": "Resource Awareness",
+    "num": 47,
+    "question": "How do I stay motivated?",
+    "response": "Connecting your work to personal goals can help.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "Campus Life / Clubs and Organizations",
+        "url": "https://www.rit.edu/clubs-and-experiences",
+        "contact": "Campus Life clubs: clubs@rit.edu; 585-475-4111"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/clubs-and-experiences",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "green-resource-awareness-48",
+    "level": "green",
+    "category": "Resource Awareness",
+    "num": 48,
+    "question": "Are there Deaf student organizations?",
+    "response": "Yes, there are multiple student organizations and communities.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "Campus Life / Clubs and Organizations",
+        "url": "https://www.rit.edu/clubs-and-experiences",
+        "contact": "Campus Life clubs: clubs@rit.edu; 585-475-4111"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/clubs-and-experiences",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "green-resource-awareness-49",
+    "level": "green",
+    "category": "Resource Awareness",
+    "num": 49,
+    "question": "How do I get involved at NTID?",
+    "response": "Start with events, organizations, and activities that interest you.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "Campus Life / Clubs and Organizations",
+        "url": "https://www.rit.edu/clubs-and-experiences",
+        "contact": "Campus Life clubs: clubs@rit.edu; 585-475-4111"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/clubs-and-experiences",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "green-resource-awareness-50",
+    "level": "green",
+    "category": "Resource Awareness",
+    "num": 50,
+    "question": "Where do students usually ask for academic help?",
+    "response": "Many students begin with NLC, NASC, faculty office hours, or tutoring resources.",
+    "referral": [
+      "Peer mentor support / optional resource"
+    ],
+    "resources": [
+      {
+        "name": "Campus Life / Clubs and Organizations",
+        "url": "https://www.rit.edu/clubs-and-experiences",
+        "contact": "Campus Life clubs: clubs@rit.edu; 585-475-4111"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/clubs-and-experiences",
+    "action": "Listen, normalize, explain next step, and optionally connect to resource.",
+    "followUp": "Optional follow-up"
+  },
+  {
+    "id": "yellow-academic-difficulties-1",
+    "level": "yellow",
+    "category": "Academic Difficulties",
+    "num": 1,
+    "question": "I'm failing one of my classes.",
+    "response": "Thank you for telling me. It sounds like this has become more than just a routine class challenge. Let's talk about what's contributing to it and identify who might help. Have you connected with your professor, NASC, or your advisor yet?",
+    "referral": [
+      "NASC",
+      "Faculty Office Hours",
+      "Academic Advisor"
+    ],
+    "resources": [
+      {
+        "name": "NTID Academic Support Center (NASC)",
+        "url": "https://www.rit.edu/ntid/support-services/other-colleges",
+        "contact": "Use NASC team-provided contact/location once confirmed; NTID academic support services page listed as placeholder."
+      },
+      {
+        "name": "Faculty Office Hours / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish to schedule with advisors/instructors when available."
+      },
+      {
+        "name": "Academic Advisor / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish or assigned college/NTID advising contact."
+      },
+      {
+        "name": "Academic Advisor / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish or assigned college/NTID advising contact."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/ntid/support-services/other-colleges",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "yellow-academic-difficulties-2",
+    "level": "yellow",
+    "category": "Academic Difficulties",
+    "num": 2,
+    "question": "I failed my first exam.",
+    "response": "That can be really discouraging. One exam doesn't determine the rest of your semester. Let's think about what happened and what support resources could help before the next exam.",
+    "referral": [
+      "NASC",
+      "Professor Office Hours"
+    ],
+    "resources": [
+      {
+        "name": "NTID Academic Support Center (NASC)",
+        "url": "https://www.rit.edu/ntid/support-services/other-colleges",
+        "contact": "Use NASC team-provided contact/location once confirmed; NTID academic support services page listed as placeholder."
+      },
+      {
+        "name": "Faculty Office Hours / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Students can check syllabus, Starfish, or email instructor."
+      },
+      {
+        "name": "Course Instructor / Faculty Office Hours",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use course syllabus, email instructor, or Starfish if available."
+      },
+      {
+        "name": "Faculty Office Hours / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish to schedule with advisors/instructors when available."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/ntid/support-services/other-colleges",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "yellow-academic-difficulties-3",
+    "level": "yellow",
+    "category": "Academic Difficulties",
+    "num": 3,
+    "question": "I don't think I can pass this class.",
+    "response": "It sounds like you're feeling overwhelmed. Before making any decisions, let's connect you with people who can help you understand your options.",
+    "referral": [
+      "Professor",
+      "Advisor",
+      "NASC"
+    ],
+    "resources": [
+      {
+        "name": "NTID Academic Support Center (NASC)",
+        "url": "https://www.rit.edu/ntid/support-services/other-colleges",
+        "contact": "Use NASC team-provided contact/location once confirmed; NTID academic support services page listed as placeholder."
+      },
+      {
+        "name": "Course Instructor / Faculty Office Hours",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use course syllabus, email instructor, or Starfish if available."
+      },
+      {
+        "name": "Academic Advisor / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish or assigned college/NTID advising contact."
+      },
+      {
+        "name": "Faculty Office Hours / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish to schedule with advisors/instructors when available."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/ntid/support-services/other-colleges",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "yellow-academic-difficulties-4",
+    "level": "yellow",
+    "category": "Academic Difficulties",
+    "num": 4,
+    "question": "I've missed several assignments already.",
+    "response": "Thanks for being honest about that. Missing assignments can become difficult to recover from without a plan. Let's figure out what happened and connect you with support.",
+    "referral": [
+      "Professor",
+      "Advisor",
+      "NASC"
+    ],
+    "resources": [
+      {
+        "name": "NTID Academic Support Center (NASC)",
+        "url": "https://www.rit.edu/ntid/support-services/other-colleges",
+        "contact": "Use NASC team-provided contact/location once confirmed; NTID academic support services page listed as placeholder."
+      },
+      {
+        "name": "Course Instructor / Faculty Office Hours",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use course syllabus, email instructor, or Starfish if available."
+      },
+      {
+        "name": "Academic Advisor / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish or assigned college/NTID advising contact."
+      },
+      {
+        "name": "Faculty Office Hours / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish to schedule with advisors/instructors when available."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/ntid/support-services/other-colleges",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "yellow-academic-difficulties-5",
+    "level": "yellow",
+    "category": "Academic Difficulties",
+    "num": 5,
+    "question": "I don't understand anything happening in my class.",
+    "response": "That sounds frustrating. This may be a good time to connect with tutoring or academic support rather than trying to handle it alone.",
+    "referral": [
+      "NASC",
+      "Professor"
+    ],
+    "resources": [
+      {
+        "name": "NTID Academic Support Center (NASC)",
+        "url": "https://www.rit.edu/ntid/support-services/other-colleges",
+        "contact": "Use NASC team-provided contact/location once confirmed; NTID academic support services page listed as placeholder."
+      },
+      {
+        "name": "Course Instructor / Faculty Office Hours",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use course syllabus, email instructor, or Starfish if available."
+      },
+      {
+        "name": "Faculty Office Hours / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish to schedule with advisors/instructors when available."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/ntid/support-services/other-colleges",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "yellow-attendance-concerns-6",
+    "level": "yellow",
+    "category": "Attendance Concerns",
+    "num": 6,
+    "question": "I've stopped going to one of my classes.",
+    "response": "I'm glad you mentioned that. Missing class regularly can affect a lot of things. Can we talk about what's making attendance difficult?",
+    "referral": [
+      "Academic Advisor",
+      "Professor"
+    ],
+    "resources": [
+      {
+        "name": "Course Instructor / Faculty Office Hours",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use course syllabus, email instructor, or Starfish if available."
+      },
+      {
+        "name": "Academic Advisor / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish or assigned college/NTID advising contact."
+      },
+      {
+        "name": "Academic Advisor / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish or assigned college/NTID advising contact."
+      },
+      {
+        "name": "Faculty Office Hours / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish to schedule with advisors/instructors when available."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/starfish/student/",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "yellow-attendance-concerns-7",
+    "level": "yellow",
+    "category": "Attendance Concerns",
+    "num": 7,
+    "question": "I keep oversleeping and missing class.",
+    "response": "Let's look at what's getting in the way and think about supports that might help.",
+    "referral": [
+      "Advisor",
+      "Student Support Staff"
+    ],
+    "resources": [
+      {
+        "name": "Academic Advisor / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish or assigned college/NTID advising contact."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/starfish/student/",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "yellow-attendance-concerns-8",
+    "level": "yellow",
+    "category": "Attendance Concerns",
+    "num": 8,
+    "question": "I'm thinking about dropping a class.",
+    "response": "That's an important decision. Before you decide, I'd really encourage you to meet with your advisor.",
+    "referral": [
+      "Academic Advisor"
+    ],
+    "resources": [
+      {
+        "name": "Academic Advisor / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish or assigned college/NTID advising contact."
+      },
+      {
+        "name": "Academic Advisor / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish or assigned college/NTID advising contact."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/starfish/student/",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "yellow-faculty-issues-9",
+    "level": "yellow",
+    "category": "Faculty Issues",
+    "num": 9,
+    "question": "I don't think my professor likes me.",
+    "response": "That sounds uncomfortable. Let's focus on what happened and whether there are ways to address it directly.",
+    "referral": [
+      "Advisor if ongoing"
+    ],
+    "resources": [
+      {
+        "name": "Course Instructor / Faculty Office Hours",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use course syllabus, email instructor, or Starfish if available."
+      },
+      {
+        "name": "Academic Advisor / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish or assigned college/NTID advising contact."
+      },
+      {
+        "name": "Faculty Office Hours / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish to schedule with advisors/instructors when available."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/starfish/student/",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "yellow-faculty-issues-10",
+    "level": "yellow",
+    "category": "Faculty Issues",
+    "num": 10,
+    "question": "My professor never answers email.",
+    "response": "That can be frustrating. Let's review when you sent the message and discuss other appropriate ways to communicate.",
+    "referral": [
+      "Office Hours",
+      "Advisor if unresolved"
+    ],
+    "resources": [
+      {
+        "name": "Course Instructor / Faculty Office Hours",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use course syllabus, email instructor, or Starfish if available."
+      },
+      {
+        "name": "Academic Advisor / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish or assigned college/NTID advising contact."
+      },
+      {
+        "name": "Faculty Office Hours / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish to schedule with advisors/instructors when available."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/starfish/student/",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "yellow-access-services-concerns-11",
+    "level": "yellow",
+    "category": "Access Services Concerns",
+    "num": 11,
+    "question": "My interpreter missed class last week.",
+    "response": "That's important information. Access concerns should be reported so the appropriate office is aware.",
+    "referral": [
+      "DAS"
+    ],
+    "resources": [
+      {
+        "name": "Department of Access Services / myAccess",
+        "url": "https://myaccess.rit.edu/myAccess5/",
+        "contact": "Use myAccess portal; FAQs linked from myAccess page."
+      }
+    ],
+    "primaryLink": "https://myaccess.rit.edu/myAccess5/",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "yellow-access-services-concerns-12",
+    "level": "yellow",
+    "category": "Access Services Concerns",
+    "num": 12,
+    "question": "My accommodations aren't working.",
+    "response": "That sounds like something the accommodation team should know about so adjustments can be discussed.",
+    "referral": [
+      "DAS",
+      "myAccess"
+    ],
+    "resources": [
+      {
+        "name": "Department of Access Services / myAccess",
+        "url": "https://myaccess.rit.edu/myAccess5/",
+        "contact": "Use myAccess portal; FAQs linked from myAccess page."
+      },
+      {
+        "name": "myAccess",
+        "url": "https://myaccess.rit.edu/myAccess5/",
+        "contact": "Use myAccess portal for access-service requests and related information."
+      }
+    ],
+    "primaryLink": "https://myaccess.rit.edu/myAccess5/",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "yellow-access-services-concerns-13",
+    "level": "yellow",
+    "category": "Access Services Concerns",
+    "num": 13,
+    "question": "I don't know how to request accommodations.",
+    "response": "I can help point you in the right direction, but the accommodation office will guide the process.",
+    "referral": [
+      "DAS"
+    ],
+    "resources": [
+      {
+        "name": "Department of Access Services / myAccess",
+        "url": "https://myaccess.rit.edu/myAccess5/",
+        "contact": "Use myAccess portal; FAQs linked from myAccess page."
+      }
+    ],
+    "primaryLink": "https://myaccess.rit.edu/myAccess5/",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "yellow-financial-concerns-affecting-academics-14",
+    "level": "yellow",
+    "category": "Financial Concerns Affecting Academics",
+    "num": 14,
+    "question": "I can't afford my textbook.",
+    "response": "I'm glad you told me. There may be resources available, and it's important not to wait.",
+    "referral": [
+      "Financial Aid",
+      "Advisor"
+    ],
+    "resources": [
+      {
+        "name": "Academic Advisor / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish or assigned college/NTID advising contact."
+      },
+      {
+        "name": "Office of Financial Aid and Scholarships",
+        "url": "https://www.rit.edu/admissions/aid/contact",
+        "contact": "ritaid@rit.edu; 585-475-2186"
+      },
+      {
+        "name": "RIT Online Bookstore",
+        "url": "https://rit.textbookx.com/institutional/index.php",
+        "contact": "Official online bookstore provider for course materials."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/starfish/student/",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "yellow-financial-concerns-affecting-academics-15",
+    "level": "yellow",
+    "category": "Financial Concerns Affecting Academics",
+    "num": 15,
+    "question": "I'm working so much that I can't keep up with school.",
+    "response": "That's a common challenge for students. Let's think about support options and whether talking with your advisor might help.",
+    "referral": [
+      "Advisor"
+    ],
+    "resources": [
+      {
+        "name": "Academic Advisor / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish or assigned college/NTID advising contact."
+      },
+      {
+        "name": "Office of Financial Aid and Scholarships",
+        "url": "https://www.rit.edu/admissions/aid/contact",
+        "contact": "ritaid@rit.edu; 585-475-2186"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/starfish/student/",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "yellow-financial-concerns-affecting-academics-16",
+    "level": "yellow",
+    "category": "Financial Concerns Affecting Academics",
+    "num": 16,
+    "question": "I might need to leave school because of money.",
+    "response": "That sounds like an important conversation to have with the people who can explain available options.",
+    "referral": [
+      "Financial Aid",
+      "Advisor"
+    ],
+    "resources": [
+      {
+        "name": "Academic Advisor / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish or assigned college/NTID advising contact."
+      },
+      {
+        "name": "Office of Financial Aid and Scholarships",
+        "url": "https://www.rit.edu/admissions/aid/contact",
+        "contact": "ritaid@rit.edu; 585-475-2186"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/starfish/student/",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "yellow-social-adjustment-concerns-17",
+    "level": "yellow",
+    "category": "Social & Adjustment Concerns",
+    "num": 17,
+    "question": "I spend most of my time alone.",
+    "response": "I'm glad you shared that. Building connections can take time, but we also want to make sure you're getting support.",
+    "referral": [
+      "Student Life",
+      "Advisor"
+    ],
+    "resources": [
+      {
+        "name": "Academic Advisor / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish or assigned college/NTID advising contact."
+      },
+      {
+        "name": "Campus Life / Clubs and Organizations",
+        "url": "https://www.rit.edu/clubs-and-experiences",
+        "contact": "Campus Life clubs: clubs@rit.edu; 585-475-4111"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/starfish/student/",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "yellow-social-adjustment-concerns-18",
+    "level": "yellow",
+    "category": "Social & Adjustment Concerns",
+    "num": 18,
+    "question": "I have no friends.",
+    "response": "That sounds really difficult. Let's think about some places and opportunities to meet people.",
+    "referral": [
+      "Student Life",
+      "Campus Activities"
+    ],
+    "resources": [
+      {
+        "name": "Campus Life / Clubs and Organizations",
+        "url": "https://www.rit.edu/clubs-and-experiences",
+        "contact": "Campus Life clubs: clubs@rit.edu; 585-475-4111"
+      },
+      {
+        "name": "Campus Life / Clubs and Organizations",
+        "url": "https://www.rit.edu/clubs-and-experiences",
+        "contact": "Campus Life clubs: clubs@rit.edu; 585-475-4111"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/clubs-and-experiences",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "yellow-social-adjustment-concerns-19",
+    "level": "yellow",
+    "category": "Social & Adjustment Concerns",
+    "num": 19,
+    "question": "I feel disconnected from everyone.",
+    "response": "Thank you for sharing that. Let's talk about ways to build connection and who might be able to help.",
+    "referral": [
+      "Student Life",
+      "Advisor"
+    ],
+    "resources": [
+      {
+        "name": "Academic Advisor / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish or assigned college/NTID advising contact."
+      },
+      {
+        "name": "Campus Life / Clubs and Organizations",
+        "url": "https://www.rit.edu/clubs-and-experiences",
+        "contact": "Campus Life clubs: clubs@rit.edu; 585-475-4111"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/starfish/student/",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "yellow-roommate-housing-concerns-20",
+    "level": "yellow",
+    "category": "Roommate & Housing Concerns",
+    "num": 20,
+    "question": "My roommate is causing problems.",
+    "response": "Let's talk about what's happening. Some roommate issues can be solved through communication, while others need support.",
+    "referral": [
+      "Residence Life"
+    ],
+    "resources": [
+      {
+        "name": "Center for Residence Life",
+        "url": "https://www.rit.edu/studentlife/residence-life",
+        "contact": "residencelife@rit.edu; 585-475-3104"
+      },
+      {
+        "name": "RIT Housing",
+        "url": "https://www.rit.edu/housing/contact-us",
+        "contact": "585-475-5000; help.rit.edu"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/studentlife/residence-life",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "yellow-roommate-housing-concerns-21",
+    "level": "yellow",
+    "category": "Roommate & Housing Concerns",
+    "num": 21,
+    "question": "I don't feel comfortable in my living situation.",
+    "response": "That sounds important. Housing staff may be able to help explore options.",
+    "referral": [
+      "Residence Life"
+    ],
+    "resources": [
+      {
+        "name": "Center for Residence Life",
+        "url": "https://www.rit.edu/studentlife/residence-life",
+        "contact": "residencelife@rit.edu; 585-475-3104"
+      },
+      {
+        "name": "RIT Housing",
+        "url": "https://www.rit.edu/housing/contact-us",
+        "contact": "585-475-5000; help.rit.edu"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/studentlife/residence-life",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "yellow-academic-confidence-concerns-22",
+    "level": "yellow",
+    "category": "Academic Confidence Concerns",
+    "num": 22,
+    "question": "Maybe I don't belong in college.",
+    "response": "Many students question themselves at some point, but I think it's important that we talk with people who can help you look at the bigger picture.",
+    "referral": [
+      "Advisor",
+      "Academic Success Resources"
+    ],
+    "resources": [
+      {
+        "name": "Academic Advisor / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish or assigned college/NTID advising contact."
+      },
+      {
+        "name": "Campus Life / Clubs and Organizations",
+        "url": "https://www.rit.edu/clubs-and-experiences",
+        "contact": "Campus Life clubs: clubs@rit.edu; 585-475-4111"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/starfish/student/",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "yellow-academic-confidence-concerns-23",
+    "level": "yellow",
+    "category": "Academic Confidence Concerns",
+    "num": 23,
+    "question": "Everyone seems smarter than me.",
+    "response": "A lot of students compare themselves to others. Let's talk about what's making you feel that way and identify support.",
+    "referral": [
+      "NASC",
+      "Advisor"
+    ],
+    "resources": [
+      {
+        "name": "NTID Academic Support Center (NASC)",
+        "url": "https://www.rit.edu/ntid/support-services/other-colleges",
+        "contact": "Use NASC team-provided contact/location once confirmed; NTID academic support services page listed as placeholder."
+      },
+      {
+        "name": "Academic Advisor / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish or assigned college/NTID advising contact."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/ntid/support-services/other-colleges",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "yellow-academic-confidence-concerns-24",
+    "level": "yellow",
+    "category": "Academic Confidence Concerns",
+    "num": 24,
+    "question": "I'm constantly overwhelmed.",
+    "response": "It sounds like you're carrying a lot right now. Let's identify what support may help.",
+    "referral": [
+      "Advisor",
+      "Academic Support"
+    ],
+    "resources": [
+      {
+        "name": "Academic Advisor / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish or assigned college/NTID advising contact."
+      },
+      {
+        "name": "NTID Academic Support Center (NASC)",
+        "url": "https://www.rit.edu/ntid/support-services/other-colleges",
+        "contact": "Use NASC team-provided contact/location once confirmed; NTID academic support services page listed as placeholder."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/starfish/student/",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "yellow-technology-academic-access-25",
+    "level": "yellow",
+    "category": "Technology & Academic Access",
+    "num": 25,
+    "question": "I don't have reliable access to a computer.",
+    "response": "That's going to affect your coursework. Let's get you connected with resources that may help.",
+    "referral": [
+      "NLC",
+      "ITS"
+    ],
+    "resources": [
+      {
+        "name": "NTID Learning Center (NLC)",
+        "url": "https://www.rit.edu/ntid/learningcenter/",
+        "contact": "Peterson Hall 50B-A121; NLC Services: https://www.rit.edu/ntid/learningcenter/nlc-services; NLCdept@rit.edu / ntidol@rit.edu"
+      },
+      {
+        "name": "RIT Service Center / ITS Service Desk",
+        "url": "https://help.rit.edu/",
+        "contact": "585-475-5000; ITS support: https://www.rit.edu/its/support"
+      },
+      {
+        "name": "Department of Access Services / myAccess",
+        "url": "https://myaccess.rit.edu/myAccess5/",
+        "contact": "Use myAccess portal; FAQs linked from myAccess page."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/ntid/learningcenter/",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "yellow-technology-academic-access-26",
+    "level": "yellow",
+    "category": "Technology & Academic Access",
+    "num": 26,
+    "question": "My computer broke and I can't complete assignments.",
+    "response": "Let's explore immediate options so you can stay on track academically.",
+    "referral": [
+      "NLC",
+      "ITS"
+    ],
+    "resources": [
+      {
+        "name": "NTID Learning Center (NLC)",
+        "url": "https://www.rit.edu/ntid/learningcenter/",
+        "contact": "Peterson Hall 50B-A121; NLC Services: https://www.rit.edu/ntid/learningcenter/nlc-services; NLCdept@rit.edu / ntidol@rit.edu"
+      },
+      {
+        "name": "RIT Service Center / ITS Service Desk",
+        "url": "https://help.rit.edu/",
+        "contact": "585-475-5000; ITS support: https://www.rit.edu/its/support"
+      },
+      {
+        "name": "Faculty Office Hours / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish to schedule with advisors/instructors when available."
+      },
+      {
+        "name": "Department of Access Services / myAccess",
+        "url": "https://myaccess.rit.edu/myAccess5/",
+        "contact": "Use myAccess portal; FAQs linked from myAccess page."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/ntid/learningcenter/",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "yellow-major-career-uncertainty-27",
+    "level": "yellow",
+    "category": "Major / Career Uncertainty",
+    "num": 27,
+    "question": "I think I chose the wrong major.",
+    "response": "A lot of students question their major at some point. Before making any decisions, let's connect with someone who can help explore options.",
+    "referral": [
+      "Advisor",
+      "Career Services"
+    ],
+    "resources": [
+      {
+        "name": "Academic Advisor / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish or assigned college/NTID advising contact."
+      },
+      {
+        "name": "Career Services and Co-op",
+        "url": "https://www.rit.edu/careerservices/",
+        "contact": "careerservices@rit.edu; 585-475-2301"
+      },
+      {
+        "name": "Academic Advisor / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish or assigned college/NTID advising contact."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/starfish/student/",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "yellow-major-career-uncertainty-28",
+    "level": "yellow",
+    "category": "Major / Career Uncertainty",
+    "num": 28,
+    "question": "I don't know what career I want.",
+    "response": "That's more common than you might think. There are resources designed to help students explore career possibilities.",
+    "referral": [
+      "Career Services"
+    ],
+    "resources": [
+      {
+        "name": "Career Services and Co-op",
+        "url": "https://www.rit.edu/careerservices/",
+        "contact": "careerservices@rit.edu; 585-475-2301"
+      },
+      {
+        "name": "Academic Advisor / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish or assigned college/NTID advising contact."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/careerservices/",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "yellow-dependency-on-mentor-29",
+    "level": "yellow",
+    "category": "Dependency on Mentor",
+    "num": 29,
+    "question": "Can I just ask you instead of talking to my advisor?",
+    "response": "I'm happy to help you think through it, but your advisor is the best person for that conversation.",
+    "referral": [
+      "Advisor"
+    ],
+    "resources": [
+      {
+        "name": "Academic Advisor / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish or assigned college/NTID advising contact."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/starfish/student/",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "yellow-dependency-on-mentor-30",
+    "level": "yellow",
+    "category": "Dependency on Mentor",
+    "num": 30,
+    "question": "Can you email my professor for me?",
+    "response": "I can help you prepare what you'd like to say, but it's important that you communicate directly.",
+    "referral": [
+      "Student communicates directly"
+    ],
+    "resources": [
+      {
+        "name": "Course Instructor / Faculty Office Hours",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use course syllabus, email instructor, or Starfish if available."
+      },
+      {
+        "name": "Faculty Office Hours / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish to schedule with advisors/instructors when available."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/starfish/student/",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "yellow-additional-yellow-scenarios-31",
+    "level": "yellow",
+    "category": "Additional Yellow Scenarios",
+    "num": 31,
+    "question": "My grades keep dropping.",
+    "response": "Let's connect with academic support before it gets worse.",
+    "referral": [
+      "Advisor, NASC"
+    ],
+    "resources": [
+      {
+        "name": "NTID Academic Support Center (NASC)",
+        "url": "https://www.rit.edu/ntid/support-services/other-colleges",
+        "contact": "Use NASC team-provided contact/location once confirmed; NTID academic support services page listed as placeholder."
+      },
+      {
+        "name": "Academic Advisor / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish or assigned college/NTID advising contact."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/ntid/support-services/other-colleges",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "yellow-additional-yellow-scenarios-32",
+    "level": "yellow",
+    "category": "Additional Yellow Scenarios",
+    "num": 32,
+    "question": "I don't know how to study anymore.",
+    "response": "Let's explore support options.",
+    "referral": [
+      "NASC"
+    ],
+    "resources": [
+      {
+        "name": "NTID Academic Support Center (NASC)",
+        "url": "https://www.rit.edu/ntid/support-services/other-colleges",
+        "contact": "Use NASC team-provided contact/location once confirmed; NTID academic support services page listed as placeholder."
+      },
+      {
+        "name": "NTID Learning Center (NLC)",
+        "url": "https://www.rit.edu/ntid/learningcenter/",
+        "contact": "Peterson Hall 50B-A121; NLC Services: https://www.rit.edu/ntid/learningcenter/nlc-services; NLCdept@rit.edu / ntidol@rit.edu"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/ntid/support-services/other-colleges",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "yellow-additional-yellow-scenarios-33",
+    "level": "yellow",
+    "category": "Additional Yellow Scenarios",
+    "num": 33,
+    "question": "I'm thinking about withdrawing.",
+    "response": "Talk with your advisor before deciding.",
+    "referral": [
+      "Advisor"
+    ],
+    "resources": [
+      {
+        "name": "Academic Advisor / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish or assigned college/NTID advising contact."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/starfish/student/",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "yellow-additional-yellow-scenarios-34",
+    "level": "yellow",
+    "category": "Additional Yellow Scenarios",
+    "num": 34,
+    "question": "My group project isn't working.",
+    "response": "Let's discuss strategies and support.",
+    "referral": [
+      "Professor"
+    ],
+    "resources": [
+      {
+        "name": "Course Instructor / Faculty Office Hours",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use course syllabus, email instructor, or Starfish if available."
+      },
+      {
+        "name": "Faculty Office Hours / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish to schedule with advisors/instructors when available."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/starfish/student/",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "yellow-additional-yellow-scenarios-35",
+    "level": "yellow",
+    "category": "Additional Yellow Scenarios",
+    "num": 35,
+    "question": "I missed an important deadline.",
+    "response": "Let's figure out your next step.",
+    "referral": [
+      "Professor"
+    ],
+    "resources": [
+      {
+        "name": "Course Instructor / Faculty Office Hours",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use course syllabus, email instructor, or Starfish if available."
+      },
+      {
+        "name": "Faculty Office Hours / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish to schedule with advisors/instructors when available."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/starfish/student/",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "yellow-additional-yellow-scenarios-36",
+    "level": "yellow",
+    "category": "Additional Yellow Scenarios",
+    "num": 36,
+    "question": "I'm on academic probation.",
+    "response": "Let's connect with academic support.",
+    "referral": [
+      "Advisor"
+    ],
+    "resources": [
+      {
+        "name": "Academic Advisor / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish or assigned college/NTID advising contact."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/starfish/student/",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "yellow-additional-yellow-scenarios-37",
+    "level": "yellow",
+    "category": "Additional Yellow Scenarios",
+    "num": 37,
+    "question": "I don't understand degree requirements.",
+    "response": "Your advisor can help explain that.",
+    "referral": [
+      "Advisor"
+    ],
+    "resources": [
+      {
+        "name": "Academic Advisor / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish or assigned college/NTID advising contact."
+      },
+      {
+        "name": "NTID Academic Support Center (NASC)",
+        "url": "https://www.rit.edu/ntid/support-services/other-colleges",
+        "contact": "Use NASC team-provided contact/location once confirmed; NTID academic support services page listed as placeholder."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/starfish/student/",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "yellow-additional-yellow-scenarios-38",
+    "level": "yellow",
+    "category": "Additional Yellow Scenarios",
+    "num": 38,
+    "question": "I'm failing multiple classes.",
+    "response": "Let's get support involved.",
+    "referral": [
+      "Advisor"
+    ],
+    "resources": [
+      {
+        "name": "Academic Advisor / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish or assigned college/NTID advising contact."
+      },
+      {
+        "name": "NTID Academic Support Center (NASC)",
+        "url": "https://www.rit.edu/ntid/support-services/other-colleges",
+        "contact": "Use NASC team-provided contact/location once confirmed; NTID academic support services page listed as placeholder."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/starfish/student/",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "yellow-additional-yellow-scenarios-39",
+    "level": "yellow",
+    "category": "Additional Yellow Scenarios",
+    "num": 39,
+    "question": "My schedule is overwhelming.",
+    "response": "Let's talk with someone who can help strategize.",
+    "referral": [
+      "Advisor"
+    ],
+    "resources": [
+      {
+        "name": "Academic Advisor / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish or assigned college/NTID advising contact."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/starfish/student/",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "yellow-additional-yellow-scenarios-40",
+    "level": "yellow",
+    "category": "Additional Yellow Scenarios",
+    "num": 40,
+    "question": "I don't think tutoring helps.",
+    "response": "Let's discuss other options too.",
+    "referral": [
+      "NASC"
+    ],
+    "resources": [
+      {
+        "name": "NTID Academic Support Center (NASC)",
+        "url": "https://www.rit.edu/ntid/support-services/other-colleges",
+        "contact": "Use NASC team-provided contact/location once confirmed; NTID academic support services page listed as placeholder."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/ntid/support-services/other-colleges",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "yellow-additional-yellow-scenarios-41",
+    "level": "yellow",
+    "category": "Additional Yellow Scenarios",
+    "num": 41,
+    "question": "I never have enough time.",
+    "response": "Let's identify where support may help.",
+    "referral": [
+      "Advisor"
+    ],
+    "resources": [
+      {
+        "name": "Academic Advisor / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish or assigned college/NTID advising contact."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/starfish/student/",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "yellow-additional-yellow-scenarios-42",
+    "level": "yellow",
+    "category": "Additional Yellow Scenarios",
+    "num": 42,
+    "question": "I keep missing assignments.",
+    "response": "Let's build a plan with support.",
+    "referral": [
+      "Advisor"
+    ],
+    "resources": [
+      {
+        "name": "Academic Advisor / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish or assigned college/NTID advising contact."
+      },
+      {
+        "name": "Faculty Office Hours / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish to schedule with advisors/instructors when available."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/starfish/student/",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "yellow-additional-yellow-scenarios-43",
+    "level": "yellow",
+    "category": "Additional Yellow Scenarios",
+    "num": 43,
+    "question": "I feel stuck.",
+    "response": "Let's connect you with resources.",
+    "referral": [
+      "Advisor"
+    ],
+    "resources": [
+      {
+        "name": "Academic Advisor / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish or assigned college/NTID advising contact."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/starfish/student/",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "yellow-additional-yellow-scenarios-44",
+    "level": "yellow",
+    "category": "Additional Yellow Scenarios",
+    "num": 44,
+    "question": "My accommodations aren't enough.",
+    "response": "Let's talk with DAS.",
+    "referral": [
+      "DAS"
+    ],
+    "resources": [
+      {
+        "name": "Department of Access Services / myAccess",
+        "url": "https://myaccess.rit.edu/myAccess5/",
+        "contact": "Use myAccess portal; FAQs linked from myAccess page."
+      }
+    ],
+    "primaryLink": "https://myaccess.rit.edu/myAccess5/",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "yellow-additional-yellow-scenarios-45",
+    "level": "yellow",
+    "category": "Additional Yellow Scenarios",
+    "num": 45,
+    "question": "My financial situation is hurting my grades.",
+    "response": "Let's connect with support.",
+    "referral": [
+      "Financial Aid"
+    ],
+    "resources": [
+      {
+        "name": "Office of Financial Aid and Scholarships",
+        "url": "https://www.rit.edu/admissions/aid/contact",
+        "contact": "ritaid@rit.edu; 585-475-2186"
+      },
+      {
+        "name": "NTID Academic Support Center (NASC)",
+        "url": "https://www.rit.edu/ntid/support-services/other-colleges",
+        "contact": "Use NASC team-provided contact/location once confirmed; NTID academic support services page listed as placeholder."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/admissions/aid/contact",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "yellow-additional-yellow-scenarios-46",
+    "level": "yellow",
+    "category": "Additional Yellow Scenarios",
+    "num": 46,
+    "question": "I don't know where to start.",
+    "response": "We'll identify one next step together.",
+    "referral": [
+      "Relevant resource"
+    ],
+    "resources": [
+      {
+        "name": "Academic Advisor / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish or assigned college/NTID advising contact."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/starfish/student/",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "yellow-additional-yellow-scenarios-47",
+    "level": "yellow",
+    "category": "Additional Yellow Scenarios",
+    "num": 47,
+    "question": "I want to transfer.",
+    "response": "Talk with your advisor first.",
+    "referral": [
+      "Advisor"
+    ],
+    "resources": [
+      {
+        "name": "Academic Advisor / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish or assigned college/NTID advising contact."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/starfish/student/",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "yellow-additional-yellow-scenarios-48",
+    "level": "yellow",
+    "category": "Additional Yellow Scenarios",
+    "num": 48,
+    "question": "I'm losing motivation.",
+    "response": "Let's identify some support.",
+    "referral": [
+      "Advisor"
+    ],
+    "resources": [
+      {
+        "name": "Academic Advisor / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish or assigned college/NTID advising contact."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/starfish/student/",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "yellow-additional-yellow-scenarios-49",
+    "level": "yellow",
+    "category": "Additional Yellow Scenarios",
+    "num": 49,
+    "question": "I need more help than I thought.",
+    "response": "That's okay. Let's connect resources.",
+    "referral": [
+      "Appropriate office"
+    ],
+    "resources": [
+      {
+        "name": "Academic Advisor / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish or assigned college/NTID advising contact."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/starfish/student/",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "yellow-additional-yellow-scenarios-50",
+    "level": "yellow",
+    "category": "Additional Yellow Scenarios",
+    "num": 50,
+    "question": "Everything feels harder than expected.",
+    "response": "You're not alone. Let's connect support.",
+    "referral": [
+      "Advisor"
+    ],
+    "resources": [
+      {
+        "name": "Academic Advisor / Starfish",
+        "url": "https://www.rit.edu/starfish/student/",
+        "contact": "Use Starfish or assigned college/NTID advising contact."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/starfish/student/",
+    "action": "Listen, validate, refer, and follow up.",
+    "followUp": "Document referral and follow up per program process"
+  },
+  {
+    "id": "red-suicide-self-harm-1",
+    "level": "red",
+    "category": "Suicide & Self-Harm",
+    "num": 1,
+    "question": "I don't want to be here anymore.",
+    "response": "Thank you for telling me. I'm really glad you shared that with me. Because I'm concerned about your safety, I need to connect you with someone who can help right now. You're not alone.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "Counseling and Psychological Services (CaPS)",
+        "url": "https://www.rit.edu/counseling/",
+        "contact": "Appointments: 585-475-2261; After-hours mental health line: 1-855-436-1245; Emergency: Public Safety 585-475-3333 or 911."
+      },
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/counseling/",
+    "action": "Stay with student if possible; Contact professional staff immediately",
+    "followUp": "Document according to program policy after immediate safety response"
+  },
+  {
+    "id": "red-suicide-self-harm-2",
+    "level": "red",
+    "category": "Suicide & Self-Harm",
+    "num": 2,
+    "question": "Everyone would be better off without me.",
+    "response": "I'm concerned about what you're saying. Your safety is important. Let's connect with someone who can help right now.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "Counseling and Psychological Services (CaPS)",
+        "url": "https://www.rit.edu/counseling/",
+        "contact": "Appointments: 585-475-2261; After-hours mental health line: 1-855-436-1245; Emergency: Public Safety 585-475-3333 or 911."
+      },
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/counseling/",
+    "action": "Immediate referral",
+    "followUp": "Document according to program policy after immediate safety response"
+  },
+  {
+    "id": "red-suicide-self-harm-3",
+    "level": "red",
+    "category": "Suicide & Self-Harm",
+    "num": 3,
+    "question": "I've thought about ending my life.",
+    "response": "Thank you for telling me. I'm glad you shared this. I need to connect you with professional support immediately.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "Counseling and Psychological Services (CaPS)",
+        "url": "https://www.rit.edu/counseling/",
+        "contact": "Appointments: 585-475-2261; After-hours mental health line: 1-855-436-1245; Emergency: Public Safety 585-475-3333 or 911."
+      },
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/counseling/",
+    "action": "Immediate emergency referral",
+    "followUp": "Document according to program policy after immediate safety response"
+  },
+  {
+    "id": "red-suicide-self-harm-4",
+    "level": "red",
+    "category": "Suicide & Self-Harm",
+    "num": 4,
+    "question": "Sometimes I wish I could disappear.",
+    "response": "That sounds really serious. I want to make sure you're connected with the right people who can support you.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "Counseling and Psychological Services (CaPS)",
+        "url": "https://www.rit.edu/counseling/",
+        "contact": "Appointments: 585-475-2261; After-hours mental health line: 1-855-436-1245; Emergency: Public Safety 585-475-3333 or 911."
+      },
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/counseling/",
+    "action": "Immediate professional referral",
+    "followUp": "Document according to program policy after immediate safety response"
+  },
+  {
+    "id": "red-suicide-self-harm-5",
+    "level": "red",
+    "category": "Suicide & Self-Harm",
+    "num": 5,
+    "question": "I've been hurting myself.",
+    "response": "Thank you for telling me. I'm concerned about your safety and well-being. I need to involve people who can support you.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "Counseling and Psychological Services (CaPS)",
+        "url": "https://www.rit.edu/counseling/",
+        "contact": "Appointments: 585-475-2261; After-hours mental health line: 1-855-436-1245; Emergency: Public Safety 585-475-3333 or 911."
+      },
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/counseling/",
+    "action": "Immediate referral",
+    "followUp": "Document according to program policy after immediate safety response"
+  },
+  {
+    "id": "red-threats-toward-others-6",
+    "level": "red",
+    "category": "Threats Toward Others",
+    "num": 6,
+    "question": "I want to hurt someone.",
+    "response": "I take that seriously. We need to get the appropriate people involved immediately.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      },
+      {
+        "name": "Student Conduct and Conflict Resolution",
+        "url": "https://www.rit.edu/studentlife/student-conduct",
+        "contact": "SAU Room 2460; studentconduct@rit.edu; 585-475-5662"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/publicsafety/how-report",
+    "action": "Professional staff; Public Safety if required",
+    "followUp": "Document according to program policy after immediate safety response"
+  },
+  {
+    "id": "red-threats-toward-others-7",
+    "level": "red",
+    "category": "Threats Toward Others",
+    "num": 7,
+    "question": "One day they're going to regret what they did to me.",
+    "response": "That sounds important and concerning. I need to connect this situation with appropriate staff.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      },
+      {
+        "name": "Student Conduct and Conflict Resolution",
+        "url": "https://www.rit.edu/studentlife/student-conduct",
+        "contact": "SAU Room 2460; studentconduct@rit.edu; 585-475-5662"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/publicsafety/how-report",
+    "action": "Stay calm, avoid promises of secrecy, contact professional staff immediately, and follow RIT/NTID protocols.",
+    "followUp": "Document according to program policy after immediate safety response"
+  },
+  {
+    "id": "red-threats-toward-others-8",
+    "level": "red",
+    "category": "Threats Toward Others",
+    "num": 8,
+    "question": "Sometimes I think about getting revenge.",
+    "response": "I'm concerned by what you're describing. We need additional support involved.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      },
+      {
+        "name": "Student Conduct and Conflict Resolution",
+        "url": "https://www.rit.edu/studentlife/student-conduct",
+        "contact": "SAU Room 2460; studentconduct@rit.edu; 585-475-5662"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/publicsafety/how-report",
+    "action": "Stay calm, avoid promises of secrecy, contact professional staff immediately, and follow RIT/NTID protocols.",
+    "followUp": "Document according to program policy after immediate safety response"
+  },
+  {
+    "id": "red-threats-toward-others-9",
+    "level": "red",
+    "category": "Threats Toward Others",
+    "num": 9,
+    "question": "I know exactly who I'd go after.",
+    "response": "I need to take that seriously and involve professional staff immediately.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      },
+      {
+        "name": "Student Conduct and Conflict Resolution",
+        "url": "https://www.rit.edu/studentlife/student-conduct",
+        "contact": "SAU Room 2460; studentconduct@rit.edu; 585-475-5662"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/publicsafety/how-report",
+    "action": "Stay calm, avoid promises of secrecy, contact professional staff immediately, and follow RIT/NTID protocols.",
+    "followUp": "Document according to program policy after immediate safety response"
+  },
+  {
+    "id": "red-threats-toward-others-10",
+    "level": "red",
+    "category": "Threats Toward Others",
+    "num": 10,
+    "question": "If I fail this class, somebody is going to pay.",
+    "response": "That sounds serious, and I need to involve support staff right away.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      },
+      {
+        "name": "Student Conduct and Conflict Resolution",
+        "url": "https://www.rit.edu/studentlife/student-conduct",
+        "contact": "SAU Room 2460; studentconduct@rit.edu; 585-475-5662"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/publicsafety/how-report",
+    "action": "Stay calm, avoid promises of secrecy, contact professional staff immediately, and follow RIT/NTID protocols.",
+    "followUp": "Document according to program policy after immediate safety response"
+  },
+  {
+    "id": "red-sexual-misconduct-sexual-violence-11",
+    "level": "red",
+    "category": "Sexual Misconduct & Sexual Violence",
+    "num": 11,
+    "question": "Someone assaulted me.",
+    "response": "Thank you for telling me. I'm sorry that happened. Because your safety and well-being matter, I need to connect you with people who can help.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "RIT Title IX Reporting",
+        "url": "https://www.rit.edu/compliance/title-ix-reporting",
+        "contact": "For immediate safety concerns contact Public Safety; Ethics hotline: 866-294-9358 / 866-294-9572 TTY."
+      },
+      {
+        "name": "CARES / RESTORE advocacy resources",
+        "url": "https://www.rit.edu/counseling/cares",
+        "contact": "RESTORE immediate support: 585-546-2777; CaPS: 585-475-2261; Public Safety emergency: 585-475-3333."
+      },
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/compliance/title-ix-reporting",
+    "action": "Stay calm, avoid promises of secrecy, contact professional staff immediately, and follow RIT/NTID protocols.",
+    "followUp": "Document according to program policy after immediate safety response"
+  },
+  {
+    "id": "red-sexual-misconduct-sexual-violence-12",
+    "level": "red",
+    "category": "Sexual Misconduct & Sexual Violence",
+    "num": 12,
+    "question": "I was pressured into something I didn't want.",
+    "response": "I'm glad you told me. Let's connect with someone trained to support situations like this.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "RIT Title IX Reporting",
+        "url": "https://www.rit.edu/compliance/title-ix-reporting",
+        "contact": "For immediate safety concerns contact Public Safety; Ethics hotline: 866-294-9358 / 866-294-9572 TTY."
+      },
+      {
+        "name": "CARES / RESTORE advocacy resources",
+        "url": "https://www.rit.edu/counseling/cares",
+        "contact": "RESTORE immediate support: 585-546-2777; CaPS: 585-475-2261; Public Safety emergency: 585-475-3333."
+      },
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/compliance/title-ix-reporting",
+    "action": "Stay calm, avoid promises of secrecy, contact professional staff immediately, and follow RIT/NTID protocols.",
+    "followUp": "Document according to program policy after immediate safety response"
+  },
+  {
+    "id": "red-sexual-misconduct-sexual-violence-13",
+    "level": "red",
+    "category": "Sexual Misconduct & Sexual Violence",
+    "num": 13,
+    "question": "Something happened at a party.",
+    "response": "Thank you for sharing that. I'd like to help connect you with someone who can support you.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "RIT Title IX Reporting",
+        "url": "https://www.rit.edu/compliance/title-ix-reporting",
+        "contact": "For immediate safety concerns contact Public Safety; Ethics hotline: 866-294-9358 / 866-294-9572 TTY."
+      },
+      {
+        "name": "CARES / RESTORE advocacy resources",
+        "url": "https://www.rit.edu/counseling/cares",
+        "contact": "RESTORE immediate support: 585-546-2777; CaPS: 585-475-2261; Public Safety emergency: 585-475-3333."
+      },
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/compliance/title-ix-reporting",
+    "action": "Stay calm, avoid promises of secrecy, contact professional staff immediately, and follow RIT/NTID protocols.",
+    "followUp": "Document according to program policy after immediate safety response"
+  },
+  {
+    "id": "red-sexual-misconduct-sexual-violence-14",
+    "level": "red",
+    "category": "Sexual Misconduct & Sexual Violence",
+    "num": 14,
+    "question": "My partner doesn't respect my boundaries.",
+    "response": "That sounds concerning. I want to help connect you with support.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "RIT Title IX Reporting",
+        "url": "https://www.rit.edu/compliance/title-ix-reporting",
+        "contact": "For immediate safety concerns contact Public Safety; Ethics hotline: 866-294-9358 / 866-294-9572 TTY."
+      },
+      {
+        "name": "CARES / RESTORE advocacy resources",
+        "url": "https://www.rit.edu/counseling/cares",
+        "contact": "RESTORE immediate support: 585-546-2777; CaPS: 585-475-2261; Public Safety emergency: 585-475-3333."
+      },
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/compliance/title-ix-reporting",
+    "action": "Stay calm, avoid promises of secrecy, contact professional staff immediately, and follow RIT/NTID protocols.",
+    "followUp": "Document according to program policy after immediate safety response"
+  },
+  {
+    "id": "red-sexual-misconduct-sexual-violence-15",
+    "level": "red",
+    "category": "Sexual Misconduct & Sexual Violence",
+    "num": 15,
+    "question": "I don't feel safe around someone.",
+    "response": "Your safety is important. Let's connect with professionals who can help.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "RIT Title IX Reporting",
+        "url": "https://www.rit.edu/compliance/title-ix-reporting",
+        "contact": "For immediate safety concerns contact Public Safety; Ethics hotline: 866-294-9358 / 866-294-9572 TTY."
+      },
+      {
+        "name": "CARES / RESTORE advocacy resources",
+        "url": "https://www.rit.edu/counseling/cares",
+        "contact": "RESTORE immediate support: 585-546-2777; CaPS: 585-475-2261; Public Safety emergency: 585-475-3333."
+      },
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/compliance/title-ix-reporting",
+    "action": "Stay calm, avoid promises of secrecy, contact professional staff immediately, and follow RIT/NTID protocols.",
+    "followUp": "Document according to program policy after immediate safety response"
+  },
+  {
+    "id": "red-harassment-discrimination-stalking-16",
+    "level": "red",
+    "category": "Harassment, Discrimination, Stalking",
+    "num": 16,
+    "question": "Someone keeps following me.",
+    "response": "That's concerning. I want to help connect you with support right away.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "RIT Title IX Reporting",
+        "url": "https://www.rit.edu/compliance/title-ix-reporting",
+        "contact": "For immediate safety concerns contact Public Safety; Ethics hotline: 866-294-9358 / 866-294-9572 TTY."
+      },
+      {
+        "name": "CARES / RESTORE advocacy resources",
+        "url": "https://www.rit.edu/counseling/cares",
+        "contact": "RESTORE immediate support: 585-546-2777; CaPS: 585-475-2261; Public Safety emergency: 585-475-3333."
+      },
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/compliance/title-ix-reporting",
+    "action": "Stay calm, avoid promises of secrecy, contact professional staff immediately, and follow RIT/NTID protocols.",
+    "followUp": "Document according to program policy after immediate safety response"
+  },
+  {
+    "id": "red-harassment-discrimination-stalking-17",
+    "level": "red",
+    "category": "Harassment, Discrimination, Stalking",
+    "num": 17,
+    "question": "I'm being harassed.",
+    "response": "Thank you for telling me. Let's make sure the right people know about this.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "RIT Title IX Reporting",
+        "url": "https://www.rit.edu/compliance/title-ix-reporting",
+        "contact": "For immediate safety concerns contact Public Safety; Ethics hotline: 866-294-9358 / 866-294-9572 TTY."
+      },
+      {
+        "name": "CARES / RESTORE advocacy resources",
+        "url": "https://www.rit.edu/counseling/cares",
+        "contact": "RESTORE immediate support: 585-546-2777; CaPS: 585-475-2261; Public Safety emergency: 585-475-3333."
+      },
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/compliance/title-ix-reporting",
+    "action": "Stay calm, avoid promises of secrecy, contact professional staff immediately, and follow RIT/NTID protocols.",
+    "followUp": "Document according to program policy after immediate safety response"
+  },
+  {
+    "id": "red-harassment-discrimination-stalking-18",
+    "level": "red",
+    "category": "Harassment, Discrimination, Stalking",
+    "num": 18,
+    "question": "Somebody threatened me.",
+    "response": "That is important information. We need to connect you with professional support immediately.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "RIT Title IX Reporting",
+        "url": "https://www.rit.edu/compliance/title-ix-reporting",
+        "contact": "For immediate safety concerns contact Public Safety; Ethics hotline: 866-294-9358 / 866-294-9572 TTY."
+      },
+      {
+        "name": "CARES / RESTORE advocacy resources",
+        "url": "https://www.rit.edu/counseling/cares",
+        "contact": "RESTORE immediate support: 585-546-2777; CaPS: 585-475-2261; Public Safety emergency: 585-475-3333."
+      },
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/compliance/title-ix-reporting",
+    "action": "Stay calm, avoid promises of secrecy, contact professional staff immediately, and follow RIT/NTID protocols.",
+    "followUp": "Document according to program policy after immediate safety response"
+  },
+  {
+    "id": "red-harassment-discrimination-stalking-19",
+    "level": "red",
+    "category": "Harassment, Discrimination, Stalking",
+    "num": 19,
+    "question": "I'm afraid to walk back to my room.",
+    "response": "Your safety comes first. Let's contact someone who can help.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "RIT Title IX Reporting",
+        "url": "https://www.rit.edu/compliance/title-ix-reporting",
+        "contact": "For immediate safety concerns contact Public Safety; Ethics hotline: 866-294-9358 / 866-294-9572 TTY."
+      },
+      {
+        "name": "CARES / RESTORE advocacy resources",
+        "url": "https://www.rit.edu/counseling/cares",
+        "contact": "RESTORE immediate support: 585-546-2777; CaPS: 585-475-2261; Public Safety emergency: 585-475-3333."
+      },
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/compliance/title-ix-reporting",
+    "action": "Stay calm, avoid promises of secrecy, contact professional staff immediately, and follow RIT/NTID protocols.",
+    "followUp": "Document according to program policy after immediate safety response"
+  },
+  {
+    "id": "red-harassment-discrimination-stalking-20",
+    "level": "red",
+    "category": "Harassment, Discrimination, Stalking",
+    "num": 20,
+    "question": "Someone won't stop contacting me.",
+    "response": "That sounds serious. Let's get support involved right away.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "RIT Title IX Reporting",
+        "url": "https://www.rit.edu/compliance/title-ix-reporting",
+        "contact": "For immediate safety concerns contact Public Safety; Ethics hotline: 866-294-9358 / 866-294-9572 TTY."
+      },
+      {
+        "name": "CARES / RESTORE advocacy resources",
+        "url": "https://www.rit.edu/counseling/cares",
+        "contact": "RESTORE immediate support: 585-546-2777; CaPS: 585-475-2261; Public Safety emergency: 585-475-3333."
+      },
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/compliance/title-ix-reporting",
+    "action": "Stay calm, avoid promises of secrecy, contact professional staff immediately, and follow RIT/NTID protocols.",
+    "followUp": "Document according to program policy after immediate safety response"
+  },
+  {
+    "id": "red-medical-emergencies-21",
+    "level": "red",
+    "category": "Medical Emergencies",
+    "num": 21,
+    "question": "I think I'm having a medical emergency.",
+    "response": "Let's get help immediately.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "Student Health Center",
+        "url": "https://www.rit.edu/studenthealth/",
+        "contact": "585-475-2255; Emergency: 911 or Public Safety 585-475-3333 / text 585-205-8333."
+      },
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/studenthealth/",
+    "action": "Emergency response",
+    "followUp": "Document according to program policy after immediate safety response"
+  },
+  {
+    "id": "red-medical-emergencies-22",
+    "level": "red",
+    "category": "Medical Emergencies",
+    "num": 22,
+    "question": "I can't breathe.",
+    "response": "We're getting help right now.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "Student Health Center",
+        "url": "https://www.rit.edu/studenthealth/",
+        "contact": "585-475-2255; Emergency: 911 or Public Safety 585-475-3333 / text 585-205-8333."
+      },
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/studenthealth/",
+    "action": "Stay calm, avoid promises of secrecy, contact professional staff immediately, and follow RIT/NTID protocols.",
+    "followUp": "Document according to program policy after immediate safety response"
+  },
+  {
+    "id": "red-medical-emergencies-23",
+    "level": "red",
+    "category": "Medical Emergencies",
+    "num": 23,
+    "question": "I think I overdosed.",
+    "response": "We need emergency help immediately.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "Student Health Center",
+        "url": "https://www.rit.edu/studenthealth/",
+        "contact": "585-475-2255; Emergency: 911 or Public Safety 585-475-3333 / text 585-205-8333."
+      },
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/studenthealth/",
+    "action": "Stay calm, avoid promises of secrecy, contact professional staff immediately, and follow RIT/NTID protocols.",
+    "followUp": "Document according to program policy after immediate safety response"
+  },
+  {
+    "id": "red-medical-emergencies-24",
+    "level": "red",
+    "category": "Medical Emergencies",
+    "num": 24,
+    "question": "I passed out earlier.",
+    "response": "That needs immediate medical attention.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "Student Health Center",
+        "url": "https://www.rit.edu/studenthealth/",
+        "contact": "585-475-2255; Emergency: 911 or Public Safety 585-475-3333 / text 585-205-8333."
+      },
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/studenthealth/",
+    "action": "Stay calm, avoid promises of secrecy, contact professional staff immediately, and follow RIT/NTID protocols.",
+    "followUp": "Document according to program policy after immediate safety response"
+  },
+  {
+    "id": "red-medical-emergencies-25",
+    "level": "red",
+    "category": "Medical Emergencies",
+    "num": 25,
+    "question": "I might have alcohol poisoning.",
+    "response": "Let's get emergency assistance immediately.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "Student Health Center",
+        "url": "https://www.rit.edu/studenthealth/",
+        "contact": "585-475-2255; Emergency: 911 or Public Safety 585-475-3333 / text 585-205-8333."
+      },
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/studenthealth/",
+    "action": "Stay calm, avoid promises of secrecy, contact professional staff immediately, and follow RIT/NTID protocols.",
+    "followUp": "Document according to program policy after immediate safety response"
+  },
+  {
+    "id": "red-severe-mental-health-crisis-26",
+    "level": "red",
+    "category": "Severe Mental Health Crisis",
+    "num": 26,
+    "question": "I'm having a mental breakdown.",
+    "response": "I'm glad you told me. Let's get additional support involved.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      },
+      {
+        "name": "Counseling and Psychological Services (CaPS)",
+        "url": "https://www.rit.edu/counseling/",
+        "contact": "Appointments: 585-475-2261; After-hours mental health line: 1-855-436-1245; Emergency: Public Safety 585-475-3333 or 911."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/publicsafety/how-report",
+    "action": "Stay calm, avoid promises of secrecy, contact professional staff immediately, and follow RIT/NTID protocols.",
+    "followUp": "Document according to program policy after immediate safety response"
+  },
+  {
+    "id": "red-severe-mental-health-crisis-27",
+    "level": "red",
+    "category": "Severe Mental Health Crisis",
+    "num": 27,
+    "question": "I can't stop crying and haven't slept for days.",
+    "response": "That sounds serious. I'd like to connect you with professional support.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      },
+      {
+        "name": "Counseling and Psychological Services (CaPS)",
+        "url": "https://www.rit.edu/counseling/",
+        "contact": "Appointments: 585-475-2261; After-hours mental health line: 1-855-436-1245; Emergency: Public Safety 585-475-3333 or 911."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/publicsafety/how-report",
+    "action": "Stay calm, avoid promises of secrecy, contact professional staff immediately, and follow RIT/NTID protocols.",
+    "followUp": "Document according to program policy after immediate safety response"
+  },
+  {
+    "id": "red-severe-mental-health-crisis-28",
+    "level": "red",
+    "category": "Severe Mental Health Crisis",
+    "num": 28,
+    "question": "I'm hearing voices.",
+    "response": "Thank you for telling me. Let's connect with help immediately.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      },
+      {
+        "name": "Counseling and Psychological Services (CaPS)",
+        "url": "https://www.rit.edu/counseling/",
+        "contact": "Appointments: 585-475-2261; After-hours mental health line: 1-855-436-1245; Emergency: Public Safety 585-475-3333 or 911."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/publicsafety/how-report",
+    "action": "Stay calm, avoid promises of secrecy, contact professional staff immediately, and follow RIT/NTID protocols.",
+    "followUp": "Document according to program policy after immediate safety response"
+  },
+  {
+    "id": "red-severe-mental-health-crisis-29",
+    "level": "red",
+    "category": "Severe Mental Health Crisis",
+    "num": 29,
+    "question": "I feel completely out of control.",
+    "response": "You don't have to handle this alone. Let's get support.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      },
+      {
+        "name": "Counseling and Psychological Services (CaPS)",
+        "url": "https://www.rit.edu/counseling/",
+        "contact": "Appointments: 585-475-2261; After-hours mental health line: 1-855-436-1245; Emergency: Public Safety 585-475-3333 or 911."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/publicsafety/how-report",
+    "action": "Stay calm, avoid promises of secrecy, contact professional staff immediately, and follow RIT/NTID protocols.",
+    "followUp": "Document according to program policy after immediate safety response"
+  },
+  {
+    "id": "red-severe-mental-health-crisis-30",
+    "level": "red",
+    "category": "Severe Mental Health Crisis",
+    "num": 30,
+    "question": "I don't know if I can keep going.",
+    "response": "I'm concerned about you and want to make sure you're connected with immediate support.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      },
+      {
+        "name": "Counseling and Psychological Services (CaPS)",
+        "url": "https://www.rit.edu/counseling/",
+        "contact": "Appointments: 585-475-2261; After-hours mental health line: 1-855-436-1245; Emergency: Public Safety 585-475-3333 or 911."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/publicsafety/how-report",
+    "action": "Stay calm, avoid promises of secrecy, contact professional staff immediately, and follow RIT/NTID protocols.",
+    "followUp": "Document according to program policy after immediate safety response"
+  },
+  {
+    "id": "red-abuse-unsafe-situations-31",
+    "level": "red",
+    "category": "Abuse & Unsafe Situations",
+    "num": 31,
+    "question": "I'm being physically abused.",
+    "response": "Thank you for telling me. Your safety is important, and we need to connect you with support immediately.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      },
+      {
+        "name": "CARES / RESTORE advocacy resources",
+        "url": "https://www.rit.edu/counseling/cares",
+        "contact": "RESTORE immediate support: 585-546-2777; CaPS: 585-475-2261; Public Safety emergency: 585-475-3333."
+      },
+      {
+        "name": "Counseling and Psychological Services (CaPS)",
+        "url": "https://www.rit.edu/counseling/",
+        "contact": "Appointments: 585-475-2261; After-hours mental health line: 1-855-436-1245; Emergency: Public Safety 585-475-3333 or 911."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/publicsafety/how-report",
+    "action": "Stay calm, avoid promises of secrecy, contact professional staff immediately, and follow RIT/NTID protocols.",
+    "followUp": "Document according to program policy after immediate safety response"
+  },
+  {
+    "id": "red-abuse-unsafe-situations-32",
+    "level": "red",
+    "category": "Abuse & Unsafe Situations",
+    "num": 32,
+    "question": "I'm scared to go home.",
+    "response": "That sounds really serious. Let's get support involved.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      },
+      {
+        "name": "CARES / RESTORE advocacy resources",
+        "url": "https://www.rit.edu/counseling/cares",
+        "contact": "RESTORE immediate support: 585-546-2777; CaPS: 585-475-2261; Public Safety emergency: 585-475-3333."
+      },
+      {
+        "name": "Counseling and Psychological Services (CaPS)",
+        "url": "https://www.rit.edu/counseling/",
+        "contact": "Appointments: 585-475-2261; After-hours mental health line: 1-855-436-1245; Emergency: Public Safety 585-475-3333 or 911."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/publicsafety/how-report",
+    "action": "Stay calm, avoid promises of secrecy, contact professional staff immediately, and follow RIT/NTID protocols.",
+    "followUp": "Document according to program policy after immediate safety response"
+  },
+  {
+    "id": "red-abuse-unsafe-situations-33",
+    "level": "red",
+    "category": "Abuse & Unsafe Situations",
+    "num": 33,
+    "question": "My partner threatens me.",
+    "response": "I'm concerned about your safety. Let's connect with someone who can help.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      },
+      {
+        "name": "CARES / RESTORE advocacy resources",
+        "url": "https://www.rit.edu/counseling/cares",
+        "contact": "RESTORE immediate support: 585-546-2777; CaPS: 585-475-2261; Public Safety emergency: 585-475-3333."
+      },
+      {
+        "name": "Counseling and Psychological Services (CaPS)",
+        "url": "https://www.rit.edu/counseling/",
+        "contact": "Appointments: 585-475-2261; After-hours mental health line: 1-855-436-1245; Emergency: Public Safety 585-475-3333 or 911."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/publicsafety/how-report",
+    "action": "Stay calm, avoid promises of secrecy, contact professional staff immediately, and follow RIT/NTID protocols.",
+    "followUp": "Document according to program policy after immediate safety response"
+  },
+  {
+    "id": "red-abuse-unsafe-situations-34",
+    "level": "red",
+    "category": "Abuse & Unsafe Situations",
+    "num": 34,
+    "question": "I don't feel safe where I'm living.",
+    "response": "Let's get additional support involved immediately.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      },
+      {
+        "name": "CARES / RESTORE advocacy resources",
+        "url": "https://www.rit.edu/counseling/cares",
+        "contact": "RESTORE immediate support: 585-546-2777; CaPS: 585-475-2261; Public Safety emergency: 585-475-3333."
+      },
+      {
+        "name": "Counseling and Psychological Services (CaPS)",
+        "url": "https://www.rit.edu/counseling/",
+        "contact": "Appointments: 585-475-2261; After-hours mental health line: 1-855-436-1245; Emergency: Public Safety 585-475-3333 or 911."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/publicsafety/how-report",
+    "action": "Stay calm, avoid promises of secrecy, contact professional staff immediately, and follow RIT/NTID protocols.",
+    "followUp": "Document according to program policy after immediate safety response"
+  },
+  {
+    "id": "red-abuse-unsafe-situations-35",
+    "level": "red",
+    "category": "Abuse & Unsafe Situations",
+    "num": 35,
+    "question": "Someone is controlling everything I do.",
+    "response": "Thank you for sharing that. We need to connect you with support.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      },
+      {
+        "name": "CARES / RESTORE advocacy resources",
+        "url": "https://www.rit.edu/counseling/cares",
+        "contact": "RESTORE immediate support: 585-546-2777; CaPS: 585-475-2261; Public Safety emergency: 585-475-3333."
+      },
+      {
+        "name": "Counseling and Psychological Services (CaPS)",
+        "url": "https://www.rit.edu/counseling/",
+        "contact": "Appointments: 585-475-2261; After-hours mental health line: 1-855-436-1245; Emergency: Public Safety 585-475-3333 or 911."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/publicsafety/how-report",
+    "action": "Stay calm, avoid promises of secrecy, contact professional staff immediately, and follow RIT/NTID protocols.",
+    "followUp": "Document according to program policy after immediate safety response"
+  },
+  {
+    "id": "red-additional-red-level-examples-36",
+    "level": "red",
+    "category": "Additional Red-Level Examples",
+    "num": 36,
+    "question": "I want to die.",
+    "response": "I'm glad you told me. Let's get immediate help.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "Counseling and Psychological Services (CaPS)",
+        "url": "https://www.rit.edu/counseling/",
+        "contact": "Appointments: 585-475-2261; After-hours mental health line: 1-855-436-1245; Emergency: Public Safety 585-475-3333 or 911."
+      },
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/counseling/",
+    "action": "Stay calm, avoid promises of secrecy, contact professional staff immediately, and follow RIT/NTID protocols.",
+    "followUp": "Document according to program policy after immediate safety response"
+  },
+  {
+    "id": "red-additional-red-level-examples-37",
+    "level": "red",
+    "category": "Additional Red-Level Examples",
+    "num": 37,
+    "question": "I have a plan to hurt myself.",
+    "response": "I need to involve emergency support right now.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "Counseling and Psychological Services (CaPS)",
+        "url": "https://www.rit.edu/counseling/",
+        "contact": "Appointments: 585-475-2261; After-hours mental health line: 1-855-436-1245; Emergency: Public Safety 585-475-3333 or 911."
+      },
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/counseling/",
+    "action": "Stay calm, avoid promises of secrecy, contact professional staff immediately, and follow RIT/NTID protocols.",
+    "followUp": "Document according to program policy after immediate safety response"
+  },
+  {
+    "id": "red-additional-red-level-examples-38",
+    "level": "red",
+    "category": "Additional Red-Level Examples",
+    "num": 38,
+    "question": "I brought a weapon.",
+    "response": "I need to contact professional staff immediately.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      },
+      {
+        "name": "Student Conduct and Conflict Resolution",
+        "url": "https://www.rit.edu/studentlife/student-conduct",
+        "contact": "SAU Room 2460; studentconduct@rit.edu; 585-475-5662"
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/publicsafety/how-report",
+    "action": "Stay calm, avoid promises of secrecy, contact professional staff immediately, and follow RIT/NTID protocols.",
+    "followUp": "Document according to program policy after immediate safety response"
+  },
+  {
+    "id": "red-additional-red-level-examples-39",
+    "level": "red",
+    "category": "Additional Red-Level Examples",
+    "num": 39,
+    "question": "I'm afraid someone will hurt me.",
+    "response": "Let's get support involved right away.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      },
+      {
+        "name": "Counseling and Psychological Services (CaPS)",
+        "url": "https://www.rit.edu/counseling/",
+        "contact": "Appointments: 585-475-2261; After-hours mental health line: 1-855-436-1245; Emergency: Public Safety 585-475-3333 or 911."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/publicsafety/how-report",
+    "action": "Stay calm, avoid promises of secrecy, contact professional staff immediately, and follow RIT/NTID protocols.",
+    "followUp": "Document according to program policy after immediate safety response"
+  },
+  {
+    "id": "red-additional-red-level-examples-40",
+    "level": "red",
+    "category": "Additional Red-Level Examples",
+    "num": 40,
+    "question": "Nobody can stop me.",
+    "response": "I'm taking this seriously and contacting support.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      },
+      {
+        "name": "Counseling and Psychological Services (CaPS)",
+        "url": "https://www.rit.edu/counseling/",
+        "contact": "Appointments: 585-475-2261; After-hours mental health line: 1-855-436-1245; Emergency: Public Safety 585-475-3333 or 911."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/publicsafety/how-report",
+    "action": "Stay calm, avoid promises of secrecy, contact professional staff immediately, and follow RIT/NTID protocols.",
+    "followUp": "Document according to program policy after immediate safety response"
+  },
+  {
+    "id": "red-additional-red-level-examples-41",
+    "level": "red",
+    "category": "Additional Red-Level Examples",
+    "num": 41,
+    "question": "I was sexually assaulted.",
+    "response": "Thank you for telling me. Let's connect with trained support.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "RIT Title IX Reporting",
+        "url": "https://www.rit.edu/compliance/title-ix-reporting",
+        "contact": "For immediate safety concerns contact Public Safety; Ethics hotline: 866-294-9358 / 866-294-9572 TTY."
+      },
+      {
+        "name": "CARES / RESTORE advocacy resources",
+        "url": "https://www.rit.edu/counseling/cares",
+        "contact": "RESTORE immediate support: 585-546-2777; CaPS: 585-475-2261; Public Safety emergency: 585-475-3333."
+      },
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/compliance/title-ix-reporting",
+    "action": "Stay calm, avoid promises of secrecy, contact professional staff immediately, and follow RIT/NTID protocols.",
+    "followUp": "Document according to program policy after immediate safety response"
+  },
+  {
+    "id": "red-additional-red-level-examples-42",
+    "level": "red",
+    "category": "Additional Red-Level Examples",
+    "num": 42,
+    "question": "I don't feel safe on campus.",
+    "response": "Let's get help and support involved immediately.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      },
+      {
+        "name": "Counseling and Psychological Services (CaPS)",
+        "url": "https://www.rit.edu/counseling/",
+        "contact": "Appointments: 585-475-2261; After-hours mental health line: 1-855-436-1245; Emergency: Public Safety 585-475-3333 or 911."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/publicsafety/how-report",
+    "action": "Stay calm, avoid promises of secrecy, contact professional staff immediately, and follow RIT/NTID protocols.",
+    "followUp": "Document according to program policy after immediate safety response"
+  },
+  {
+    "id": "red-additional-red-level-examples-43",
+    "level": "red",
+    "category": "Additional Red-Level Examples",
+    "num": 43,
+    "question": "I may hurt myself tonight.",
+    "response": "Your safety is the priority. We're getting help now.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "Counseling and Psychological Services (CaPS)",
+        "url": "https://www.rit.edu/counseling/",
+        "contact": "Appointments: 585-475-2261; After-hours mental health line: 1-855-436-1245; Emergency: Public Safety 585-475-3333 or 911."
+      },
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/counseling/",
+    "action": "Stay calm, avoid promises of secrecy, contact professional staff immediately, and follow RIT/NTID protocols.",
+    "followUp": "Document according to program policy after immediate safety response"
+  },
+  {
+    "id": "red-additional-red-level-examples-44",
+    "level": "red",
+    "category": "Additional Red-Level Examples",
+    "num": 44,
+    "question": "Someone threatened to kill me.",
+    "response": "That's serious. We need immediate assistance.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "RIT Title IX Reporting",
+        "url": "https://www.rit.edu/compliance/title-ix-reporting",
+        "contact": "For immediate safety concerns contact Public Safety; Ethics hotline: 866-294-9358 / 866-294-9572 TTY."
+      },
+      {
+        "name": "CARES / RESTORE advocacy resources",
+        "url": "https://www.rit.edu/counseling/cares",
+        "contact": "RESTORE immediate support: 585-546-2777; CaPS: 585-475-2261; Public Safety emergency: 585-475-3333."
+      },
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/compliance/title-ix-reporting",
+    "action": "Stay calm, avoid promises of secrecy, contact professional staff immediately, and follow RIT/NTID protocols.",
+    "followUp": "Document according to program policy after immediate safety response"
+  },
+  {
+    "id": "red-additional-red-level-examples-45",
+    "level": "red",
+    "category": "Additional Red-Level Examples",
+    "num": 45,
+    "question": "I don't think I can stay safe.",
+    "response": "Thank you for telling me. Let's connect with support immediately.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "Counseling and Psychological Services (CaPS)",
+        "url": "https://www.rit.edu/counseling/",
+        "contact": "Appointments: 585-475-2261; After-hours mental health line: 1-855-436-1245; Emergency: Public Safety 585-475-3333 or 911."
+      },
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/counseling/",
+    "action": "Stay calm, avoid promises of secrecy, contact professional staff immediately, and follow RIT/NTID protocols.",
+    "followUp": "Document according to program policy after immediate safety response"
+  },
+  {
+    "id": "red-additional-red-level-examples-46",
+    "level": "red",
+    "category": "Additional Red-Level Examples",
+    "num": 46,
+    "question": "I'm afraid to be alone.",
+    "response": "Let's make sure you're connected with help.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      },
+      {
+        "name": "Counseling and Psychological Services (CaPS)",
+        "url": "https://www.rit.edu/counseling/",
+        "contact": "Appointments: 585-475-2261; After-hours mental health line: 1-855-436-1245; Emergency: Public Safety 585-475-3333 or 911."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/publicsafety/how-report",
+    "action": "Stay calm, avoid promises of secrecy, contact professional staff immediately, and follow RIT/NTID protocols.",
+    "followUp": "Document according to program policy after immediate safety response"
+  },
+  {
+    "id": "red-additional-red-level-examples-47",
+    "level": "red",
+    "category": "Additional Red-Level Examples",
+    "num": 47,
+    "question": "I was attacked.",
+    "response": "We need to get support involved immediately.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      },
+      {
+        "name": "Counseling and Psychological Services (CaPS)",
+        "url": "https://www.rit.edu/counseling/",
+        "contact": "Appointments: 585-475-2261; After-hours mental health line: 1-855-436-1245; Emergency: Public Safety 585-475-3333 or 911."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/publicsafety/how-report",
+    "action": "Stay calm, avoid promises of secrecy, contact professional staff immediately, and follow RIT/NTID protocols.",
+    "followUp": "Document according to program policy after immediate safety response"
+  },
+  {
+    "id": "red-additional-red-level-examples-48",
+    "level": "red",
+    "category": "Additional Red-Level Examples",
+    "num": 48,
+    "question": "I'm thinking about suicide.",
+    "response": "I'm glad you told me. We need immediate support.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "Counseling and Psychological Services (CaPS)",
+        "url": "https://www.rit.edu/counseling/",
+        "contact": "Appointments: 585-475-2261; After-hours mental health line: 1-855-436-1245; Emergency: Public Safety 585-475-3333 or 911."
+      },
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/counseling/",
+    "action": "Stay calm, avoid promises of secrecy, contact professional staff immediately, and follow RIT/NTID protocols.",
+    "followUp": "Document according to program policy after immediate safety response"
+  },
+  {
+    "id": "red-additional-red-level-examples-49",
+    "level": "red",
+    "category": "Additional Red-Level Examples",
+    "num": 49,
+    "question": "I think someone drugged me.",
+    "response": "Let's get help immediately.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "Student Health Center",
+        "url": "https://www.rit.edu/studenthealth/",
+        "contact": "585-475-2255; Emergency: 911 or Public Safety 585-475-3333 / text 585-205-8333."
+      },
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/studenthealth/",
+    "action": "Stay calm, avoid promises of secrecy, contact professional staff immediately, and follow RIT/NTID protocols.",
+    "followUp": "Document according to program policy after immediate safety response"
+  },
+  {
+    "id": "red-additional-red-level-examples-50",
+    "level": "red",
+    "category": "Additional Red-Level Examples",
+    "num": 50,
+    "question": "I don't trust myself right now.",
+    "response": "Thank you for telling me. Let's get support now.",
+    "referral": [
+      "Immediate professional support"
+    ],
+    "resources": [
+      {
+        "name": "Counseling and Psychological Services (CaPS)",
+        "url": "https://www.rit.edu/counseling/",
+        "contact": "Appointments: 585-475-2261; After-hours mental health line: 1-855-436-1245; Emergency: Public Safety 585-475-3333 or 911."
+      },
+      {
+        "name": "RIT Public Safety",
+        "url": "https://www.rit.edu/publicsafety/how-report",
+        "contact": "Emergency: 585-475-3333; Text: 585-205-8333; use 911 for immediate emergencies."
+      }
+    ],
+    "primaryLink": "https://www.rit.edu/counseling/",
+    "action": "Stay calm, avoid promises of secrecy, contact professional staff immediately, and follow RIT/NTID protocols.",
+    "followUp": "Document according to program policy after immediate safety response"
+  }
+]
