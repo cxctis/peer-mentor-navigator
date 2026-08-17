@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Peer Mentor Resource Navigator</title>
+<meta name="description" content="Click a situation, get the right resource. A visual decision-support map for peer mentors and first-year students.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧭</text></svg>">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand">
+      <span class="brand-icon" aria-hidden="true">🧭</span>
+      <div>
+        <h1>Peer Mentor Resource Navigator</h1>
+        <p class="tagline">Click a situation. Get the right resource, script, and referral — instantly.</p>
+      </div>
+    </div>
+    <nav class="view-switch" role="tablist" aria-label="View switcher">
+      <button class="view-btn active" data-view="map" role="tab" aria-selected="true">🗺️ Explore Map</button>
+      <button class="view-btn" data-view="mentor" role="tab" aria-selected="false">💬 Peer Mentor Mode</button>
+      <button class="view-btn" data-view="directory" role="tab" aria-selected="false">📇 Resource Directory</button>
+    </nav>
+  </div>
+</header>
+
+<main id="app">
+
+  <!-- ===================== MAP VIEW ===================== -->
+  <section id="view-map" class="view active">
+
+    <div class="prompt-bar">
+      <h2>What do you need today?</h2>
+      <div class="quick-buttons" id="quickButtons">
+        <button class="quick-btn quick-all active" data-level="all">Everything</button>
+        <button class="quick-btn quick-green" data-level="green">🟢 A place, tool, or academic help</button>
+        <button class="quick-btn quick-yellow" data-level="yellow">🟡 I'm struggling with something</button>
+        <button class="quick-btn quick-red" data-level="red">🔴 This is urgent / unsafe</button>
+      </div>
+    </div>
+
+    <div class="search-bar">
+      <input type="search" id="mapSearch" placeholder="Search a situation — e.g. &quot;roommate&quot;, &quot;failing a class&quot;, &quot;tutoring&quot;..." aria-label="Search situations">
+      <span id="mapSearchCount" class="search-count"></span>
+    </div>
+
+    <div class="legend">
+      <span><i class="dot dot-green"></i> Peer support &amp; self-navigate</span>
+      <span><i class="dot dot-yellow"></i> Support + refer to staff</span>
+      <span><i class="dot dot-red"></i> Immediate staff / crisis support</span>
+      <span class="legend-hint">Tile size = how often this comes up. Click any tile.</span>
+    </div>
+
+    <div id="treemap" class="treemap" role="list" aria-label="Student situations treemap"></div>
+
+  </section>
+
+  <!-- ===================== PEER MENTOR MODE ===================== -->
+  <section id="view-mentor" class="view">
+    <div class="mentor-mode-intro">
+      <h2>What did the student say?</h2>
+      <p>Paste or type what the student said. We'll match it to the closest situation(s) and show you what to do.</p>
+      <input type="search" id="mentorSearch" placeholder="e.g. &quot;I failed my exam&quot;" aria-label="What did the student say?">
+    </div>
+    <div id="mentorResults" class="mentor-results"></div>
+  </section>
+
+  <!-- ===================== RESOURCE DIRECTORY ===================== -->
+  <section id="view-directory" class="view">
+    <div class="prompt-bar">
+      <h2>Resource Directory</h2>
+      <p class="directory-sub">Every resource referenced across the map, in one place.</p>
+    </div>
+    <div id="directoryGrid" class="directory-grid"></div>
+  </section>
+
+</main>
+
+<!-- ===================== DETAIL PANEL (overlay) ===================== -->
+<div id="detailOverlay" class="detail-overlay" hidden>
+  <div id="detailPanel" class="detail-panel" role="dialog" aria-modal="true" aria-labelledby="detailTitle">
+    <button id="detailClose" class="detail-close" aria-label="Close">✕</button>
+    <div id="detailContent"></div>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <p><strong>Internal peer mentor training tool</strong> — not an official emergency service. In a life-threatening emergency, call <strong>911</strong> immediately. Some contact details below are placeholders — see the <a href="README.md">README</a> for how NASC/NLC staff can keep this current.</p>
+</footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>

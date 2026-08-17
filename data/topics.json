@@ -1,0 +1,620 @@
+{
+  "greenFormula": [
+    { "step": "Normalize", "example": "Many students experience this." },
+    { "step": "Encourage", "example": "You're not alone." },
+    { "step": "Share appropriate experience", "example": "What helped me was..." },
+    { "step": "Offer a next step", "example": "Would it help if I showed you where to find that resource?" }
+  ],
+  "yellowFormula": [
+    { "step": "Listen", "example": "Thank you for telling me." },
+    { "step": "Validate", "example": "That sounds really hard." },
+    { "step": "Explore", "example": "Can you tell me more about what's going on?" },
+    { "step": "Refer", "example": "Let's connect you with someone who can help." },
+    { "step": "Follow Up", "example": "Check back in with the student afterward." }
+  ],
+  "yellowRule": "Yellow = \"I can support the student, but I should not be the only support.\" The peer mentor listens, encourages, asks questions, and helps the student connect with the appropriate resource. The peer mentor should not attempt to solve the problem alone.",
+  "redProtocol": {
+    "rule": "Recognize → Stay Calm → Connect to Professional Help → Never Handle Alone. If the student's safety, someone else's safety, or immediate well-being may be at risk: STOP handling it alone.",
+    "dos": [
+      "Stay calm",
+      "Listen",
+      "Avoid promises of secrecy",
+      "Contact appropriate staff immediately",
+      "Follow program protocols",
+      "Document according to program policy"
+    ],
+    "donts": [
+      "Do not investigate",
+      "Do not counsel",
+      "Do not keep it secret",
+      "Do not handle it alone"
+    ],
+    "closing": "A peer mentor's job in Red situations is not to solve the problem. A peer mentor's job is to make sure the student gets connected to the people who can."
+  },
+  "topics": [
+    {
+      "id": "green-friends-belonging",
+      "level": "green",
+      "title": "Making Friends & Feeling Like I Belong",
+      "category": "Transition & Belonging",
+      "weight": 6,
+      "studentQuotes": [
+        "How do I make friends here?",
+        "Everyone already seems to know each other.",
+        "I don't feel like I belong yet.",
+        "What if I don't fit in?",
+        "Am I the only one struggling?"
+      ],
+      "why": "This is normal first-year adjustment. The student is safe and functioning — they mainly need encouragement, normalization, and ideas for building connection.",
+      "mentorScript": "A lot of students wonder that when they first arrive. One of the easiest ways is to attend events, join a club, or keep showing up to the same places consistently. It usually takes time — most students don't build close friendships in the first week.",
+      "resources": ["studentlife"],
+      "whatToBring": []
+    },
+    {
+      "id": "green-homesick-nervous",
+      "level": "green",
+      "title": "Feeling Nervous, Homesick, or Behind on Adjusting",
+      "category": "Transition & Belonging",
+      "weight": 5,
+      "studentQuotes": [
+        "Is it normal to feel nervous about college?",
+        "I'm homesick. Is that normal?",
+        "How long did it take you to feel comfortable here?",
+        "What was your first semester like?"
+      ],
+      "why": "Nervousness and homesickness are extremely common first-semester experiences. Peer mentors can normalize the feeling and share their own adjustment story.",
+      "mentorScript": "Absolutely — many students feel excited and nervous at the same time. Starting college means adjusting to new expectations, people, and routines. Staying connected with home is fine, but building small routines here helps campus start to feel familiar.",
+      "resources": ["studentlife"],
+      "whatToBring": []
+    },
+    {
+      "id": "green-getting-involved",
+      "level": "green",
+      "title": "Getting Involved on Campus",
+      "category": "Transition & Belonging",
+      "weight": 6,
+      "studentQuotes": [
+        "How do students get involved on campus?",
+        "What clubs are worth joining?",
+        "How do I join a club?",
+        "Are there Deaf student organizations?",
+        "How do I get involved at NTID?",
+        "What events should I attend?"
+      ],
+      "why": "Involvement is one of the strongest predictors of belonging. This is a straightforward information-and-encouragement conversation.",
+      "mentorScript": "Let's look at student organizations together — there are multiple communities and Deaf student organizations. Try a few different events and see what interests you.",
+      "resources": ["studentlife"],
+      "whatToBring": []
+    },
+    {
+      "id": "green-time-management",
+      "level": "green",
+      "title": "Staying Organized & Managing Time",
+      "category": "Academic Success",
+      "weight": 6,
+      "studentQuotes": [
+        "What's the best way to stay organized?",
+        "How do you keep track of assignments?",
+        "Do students actually use planners or calendars?",
+        "How do you manage so many deadlines?",
+        "How do students manage time?"
+      ],
+      "why": "This is a skills/strategy question, not a sign of a struggling student. Sharing a practical system is usually enough.",
+      "mentorScript": "What helped me was putting all my deadlines in one place and checking them every day. Some students use planners, calendars, apps, or reminders — the important thing is finding one system and using it consistently.",
+      "resources": ["nasc", "nlc"],
+      "whatToBring": ["Laptop or planner", "Current class schedule"]
+    },
+    {
+      "id": "green-study-habits",
+      "level": "green",
+      "title": "Building Study Habits & Exam Prep",
+      "category": "Academic Success",
+      "weight": 6,
+      "studentQuotes": [
+        "How do you study for exams?",
+        "What are good study habits?",
+        "How do you prepare for finals?",
+        "What should I do if I procrastinate?",
+        "What helps you remember information?"
+      ],
+      "why": "Routine study-skill questions where sharing personal strategy and normalizing procrastination struggles is appropriate peer support.",
+      "mentorScript": "I try not to wait until the last minute — I break material into smaller pieces and review it over several days. Starting with one small task is often easier than tackling everything at once.",
+      "resources": ["nasc"],
+      "whatToBring": ["Class notes", "List of upcoming exams/assignments"]
+    },
+    {
+      "id": "green-understanding-assignments",
+      "level": "green",
+      "title": "Understanding a Syllabus or Assignment",
+      "category": "Academic Success",
+      "weight": 4,
+      "studentQuotes": [
+        "I don't understand the syllabus. Where should I start?",
+        "What should I do if I don't understand an assignment?",
+        "What does participation mean in college classes?"
+      ],
+      "why": "A comprehension/clarity question, not a crisis. The mentor can walk through the syllabus and model how to identify what's confusing before asking the professor.",
+      "mentorScript": "The syllabus can feel overwhelming at first — I usually start by finding major assignments, exam dates, attendance expectations, and office hours. A good first step is identifying exactly what's confusing so you can ask a specific question.",
+      "resources": ["faculty", "nasc"],
+      "whatToBring": ["Syllabus", "The assignment in question"]
+    },
+    {
+      "id": "green-talking-to-professors",
+      "level": "green",
+      "title": "Talking to Professors & Office Hours",
+      "category": "Academic Success",
+      "weight": 6,
+      "studentQuotes": [
+        "How do I email a professor?",
+        "What are office hours?",
+        "Are professors approachable?",
+        "I'm nervous talking to professors.",
+        "What if I ask a stupid question?",
+        "What if I make a mistake in class?"
+      ],
+      "why": "Confidence-building and communication coaching — well within peer mentor territory.",
+      "mentorScript": "Keep it professional, explain your question clearly, and include enough information so the professor understands what you're asking about. Most questions aren't stupid — if you're confused, chances are other students are too.",
+      "resources": ["faculty"],
+      "whatToBring": []
+    },
+    {
+      "id": "green-place-to-study",
+      "level": "green",
+      "title": "Finding a Place to Study",
+      "category": "Tools & Spaces",
+      "weight": 4,
+      "studentQuotes": [
+        "Where is the NTID Learning Center?",
+        "What should I do if I need a quiet place to work?",
+        "How do I reserve study space?",
+        "Where do you usually study?"
+      ],
+      "why": "A logistics/navigation question with a direct answer.",
+      "mentorScript": "There are several options on campus — the NTID Learning Center is one example. Different locations have different reservation processes; we can look it up together.",
+      "resources": ["nlc"],
+      "whatToBring": []
+    },
+    {
+      "id": "green-computer-printing",
+      "level": "green",
+      "title": "Finding a Computer or Printing",
+      "category": "Tools & Spaces",
+      "weight": 3,
+      "studentQuotes": [
+        "Where can I find a computer?",
+        "Where can I print something?"
+      ],
+      "why": "Straightforward technology/logistics question.",
+      "mentorScript": "There are computer and printing resources available on campus, including the NTID Learning Center. I can help you find the closest option.",
+      "resources": ["nlc", "its"],
+      "whatToBring": []
+    },
+    {
+      "id": "green-tutoring-getting-started",
+      "level": "green",
+      "title": "Getting Started with Tutoring",
+      "category": "Academic Success",
+      "weight": 4,
+      "studentQuotes": [
+        "What does NASC do?",
+        "How do I find tutoring?",
+        "Where do students usually ask for academic help?"
+      ],
+      "why": "Introducing a resource, not solving a problem — a core Green-level action.",
+      "mentorScript": "NASC focuses on learning support — tutoring, study support, and help understanding course material. It's a great place to start if you're having trouble with a concept or homework.",
+      "resources": ["nasc"],
+      "whatToBring": ["Laptop", "Homework", "Notes", "Questions"]
+    },
+    {
+      "id": "green-confidence-mistakes",
+      "level": "green",
+      "title": "Confidence, Mistakes & Uncertainty",
+      "category": "Transition & Belonging",
+      "weight": 4,
+      "studentQuotes": [
+        "How do people become confident?",
+        "What if I don't know what I'm doing?",
+        "What if I make a mistake?"
+      ],
+      "why": "Normal first-year uncertainty. Encouragement and normalizing is the whole intervention here — no referral needed.",
+      "mentorScript": "Confidence usually grows from experience — most students build it by trying new things and realizing they can handle challenges. Making mistakes is part of learning; the important thing is learning from them and moving forward.",
+      "resources": [],
+      "whatToBring": []
+    },
+    {
+      "id": "green-resource-awareness",
+      "level": "green",
+      "title": "Knowing What Resources Exist",
+      "category": "Tools & Spaces",
+      "weight": 5,
+      "studentQuotes": [
+        "What campus resources do you recommend every first-year student know about?",
+        "What resources do most students use?",
+        "What is Starfish?"
+      ],
+      "why": "A general orientation question — a chance to introduce the resource map itself.",
+      "mentorScript": "NLC, NASC, faculty office hours, DAS, myAccess, and Starfish are resources every student should know about. Starfish is a tool many students use for appointments and academic support connections.",
+      "resources": ["nlc", "nasc", "faculty", "das", "starfish"],
+      "whatToBring": []
+    },
+    {
+      "id": "yellow-failing-course",
+      "level": "yellow",
+      "title": "Struggling or Failing a Class",
+      "category": "Academic Difficulties",
+      "weight": 7,
+      "studentQuotes": [
+        "I'm failing one of my classes.",
+        "I failed my first exam.",
+        "I don't think I can pass this class.",
+        "I don't understand anything happening in my class.",
+        "My grades keep dropping.",
+        "I don't know how to study anymore.",
+        "I'm failing multiple classes.",
+        "I don't think tutoring helps."
+      ],
+      "why": "This has moved past a routine study-skills question into a pattern that needs professional academic support and, often, an advising conversation about options.",
+      "mentorScript": "Thank you for telling me. It sounds like this has become more than a routine class challenge. Let's talk about what's contributing to it and identify who might help — have you connected with your professor, NASC, or your advisor yet?",
+      "resources": ["nasc", "faculty", "advisor"],
+      "whatToBring": []
+    },
+    {
+      "id": "yellow-missing-assignments",
+      "level": "yellow",
+      "title": "Missing Assignments & Falling Behind",
+      "category": "Academic Difficulties",
+      "weight": 5,
+      "studentQuotes": [
+        "I've missed several assignments already.",
+        "I missed an important deadline.",
+        "I keep missing assignments.",
+        "I never have enough time.",
+        "My schedule is overwhelming."
+      ],
+      "why": "Missed assignments can snowball quickly. A plan with staff involved is more effective than a peer mentor trying to help the student catch up alone.",
+      "mentorScript": "Thanks for being honest about that. Missing assignments can become difficult to recover from without a plan. Let's figure out what happened and connect you with support.",
+      "resources": ["faculty", "advisor"],
+      "whatToBring": []
+    },
+    {
+      "id": "yellow-dropping-withdrawing",
+      "level": "yellow",
+      "title": "Thinking About Dropping, Withdrawing, or Transferring",
+      "category": "Academic Difficulties",
+      "weight": 4,
+      "studentQuotes": [
+        "I'm thinking about dropping a class.",
+        "I'm thinking about withdrawing.",
+        "I want to transfer."
+      ],
+      "why": "These decisions have academic and financial consequences the peer mentor isn't positioned to advise on. The advisor needs to be part of this conversation before anything is decided.",
+      "mentorScript": "That's an important decision. Before you decide, I'd really encourage you to meet with your advisor so you understand all your options first.",
+      "resources": ["advisor"],
+      "whatToBring": []
+    },
+    {
+      "id": "yellow-attendance",
+      "level": "yellow",
+      "title": "Attendance Problems",
+      "category": "Academic Difficulties",
+      "weight": 4,
+      "studentQuotes": [
+        "I've stopped going to one of my classes.",
+        "I keep oversleeping and missing class."
+      ],
+      "why": "Attendance drop-off is often a signal of a bigger issue underneath. Worth exploring gently, then bringing in the advisor.",
+      "mentorScript": "I'm glad you mentioned that. Missing class regularly can affect a lot of things. Can we talk about what's making attendance difficult?",
+      "resources": ["advisor", "faculty"],
+      "whatToBring": []
+    },
+    {
+      "id": "yellow-faculty-conflict",
+      "level": "yellow",
+      "title": "Conflict or Communication Issues with a Professor",
+      "category": "Faculty Issues",
+      "weight": 5,
+      "studentQuotes": [
+        "I don't think my professor likes me.",
+        "My professor never answers email.",
+        "My group project isn't working."
+      ],
+      "why": "The mentor can help the student think it through and try direct communication first, but ongoing conflict needs an advisor or office-hours follow-up.",
+      "mentorScript": "That sounds uncomfortable. Let's focus on what happened and whether there are ways to address it directly — and if it doesn't resolve, your advisor can help too.",
+      "resources": ["faculty", "advisor"],
+      "whatToBring": []
+    },
+    {
+      "id": "yellow-accommodations",
+      "level": "yellow",
+      "title": "Accommodation or Access Problems",
+      "category": "Access Services Concerns",
+      "weight": 5,
+      "studentQuotes": [
+        "My interpreter missed class last week.",
+        "My accommodations aren't working.",
+        "I don't know how to request accommodations.",
+        "My accommodations aren't enough."
+      ],
+      "why": "Access breakdowns need to be reported directly to DAS so they can be tracked and fixed — this isn't something a peer mentor can resolve.",
+      "mentorScript": "That's important information. Access concerns should be reported so the accommodation team can be aware and make adjustments. I can help point you in the right direction, but DAS will guide the process.",
+      "resources": ["das", "myaccess"],
+      "whatToBring": []
+    },
+    {
+      "id": "yellow-financial",
+      "level": "yellow",
+      "title": "Financial Challenges Affecting School",
+      "category": "Financial Concerns",
+      "weight": 5,
+      "studentQuotes": [
+        "I can't afford my textbook.",
+        "I'm working so much that I can't keep up with school.",
+        "I might need to leave school because of money.",
+        "My financial situation is hurting my grades."
+      ],
+      "why": "Financial barriers need Financial Aid's help directly — waiting can make the situation worse, and a peer mentor can't offer financial remedies.",
+      "mentorScript": "I'm glad you told me. There may be resources available, and it's important not to wait. Let's connect you with Financial Aid and your advisor.",
+      "resources": ["finaid", "advisor"],
+      "whatToBring": []
+    },
+    {
+      "id": "yellow-isolated",
+      "level": "yellow",
+      "title": "Feeling Isolated or Disconnected",
+      "category": "Social & Adjustment Concerns",
+      "weight": 4,
+      "studentQuotes": [
+        "I spend most of my time alone.",
+        "I have no friends.",
+        "I feel disconnected from everyone."
+      ],
+      "why": "This has moved beyond normal adjustment homesickness into a pattern worth involving Student Life and an advisor to make sure the student gets consistent support.",
+      "mentorScript": "I'm glad you shared that. Building connections can take time, but we also want to make sure you're getting support. Let's think about some places and opportunities to meet people.",
+      "resources": ["studentlife", "advisor"],
+      "whatToBring": []
+    },
+    {
+      "id": "yellow-roommate-housing",
+      "level": "yellow",
+      "title": "Roommate or Housing Problems",
+      "category": "Roommate & Housing Concerns",
+      "weight": 4,
+      "studentQuotes": [
+        "My roommate is causing problems.",
+        "I don't feel comfortable in my living situation."
+      ],
+      "why": "Housing conflicts need Residence Life, which has the authority and process to actually resolve them.",
+      "mentorScript": "Let's talk about what's happening. Some roommate issues can be solved through communication, while others need Residence Life's support to work through.",
+      "resources": ["reslife"],
+      "whatToBring": []
+    },
+    {
+      "id": "yellow-academic-confidence",
+      "level": "yellow",
+      "title": "Doubting Whether They Belong / Overwhelmed",
+      "category": "Academic Confidence Concerns",
+      "weight": 6,
+      "studentQuotes": [
+        "Maybe I don't belong in college.",
+        "Everyone seems smarter than me.",
+        "I'm constantly overwhelmed.",
+        "Everything feels harder than expected.",
+        "I feel stuck.",
+        "I'm losing motivation."
+      ],
+      "why": "This goes beyond normal Green-level nerves into a pattern of self-doubt that benefits from a bigger-picture conversation with an advisor and academic support.",
+      "mentorScript": "Many students question themselves at some point, but I think it's important that we talk with people who can help you look at the bigger picture.",
+      "resources": ["advisor", "nasc"],
+      "whatToBring": []
+    },
+    {
+      "id": "yellow-technology-access",
+      "level": "yellow",
+      "title": "Unreliable Computer or Technology Access",
+      "category": "Technology & Academic Access",
+      "weight": 3,
+      "studentQuotes": [
+        "I don't have reliable access to a computer.",
+        "My computer broke and I can't complete assignments."
+      ],
+      "why": "This directly threatens the student's ability to complete coursework and needs a fast, concrete fix from NLC/ITS.",
+      "mentorScript": "That's going to affect your coursework. Let's get you connected with resources right away so you can stay on track academically.",
+      "resources": ["nlc", "its"],
+      "whatToBring": []
+    },
+    {
+      "id": "yellow-major-career",
+      "level": "yellow",
+      "title": "Unsure About Major or Career",
+      "category": "Major / Career Uncertainty",
+      "weight": 4,
+      "studentQuotes": [
+        "I think I chose the wrong major.",
+        "I don't know what career I want."
+      ],
+      "why": "Changing direction has real academic consequences, so this should go through an advisor and Career Services rather than informal peer advice.",
+      "mentorScript": "A lot of students question their major at some point. Before making any decisions, let's connect with someone who can help you explore options.",
+      "resources": ["advisor", "career"],
+      "whatToBring": []
+    },
+    {
+      "id": "yellow-probation-degree",
+      "level": "yellow",
+      "title": "Academic Probation & Degree Confusion",
+      "category": "Academic Difficulties",
+      "weight": 4,
+      "studentQuotes": [
+        "I'm on academic probation.",
+        "I don't understand degree requirements.",
+        "I don't know where to start."
+      ],
+      "why": "Probation status and degree requirements carry real academic stakes that only an advisor can accurately explain.",
+      "mentorScript": "Let's connect with academic support so you have a clear plan — your advisor can walk through exactly what's required.",
+      "resources": ["advisor"],
+      "whatToBring": []
+    },
+    {
+      "id": "yellow-dependency",
+      "level": "yellow",
+      "title": "Becoming the Student's Only Source of Help",
+      "category": "Dependency on Mentor",
+      "weight": 3,
+      "studentQuotes": [
+        "Can I just ask you instead of talking to my advisor?",
+        "Can you email my professor for me?"
+      ],
+      "why": "A peer mentor should never become a substitute for staff or for the student's own advocacy — redirect warmly but firmly.",
+      "mentorScript": "I'm happy to help you think through it, but your advisor is the best person for that conversation. I can help you prepare what you'd like to say, but it's important that you communicate directly.",
+      "resources": ["advisor"],
+      "whatToBring": []
+    },
+    {
+      "id": "red-suicide-selfharm",
+      "level": "red",
+      "title": "Suicidal Thoughts & Self-Harm",
+      "category": "Suicide & Self-Harm",
+      "weight": 9,
+      "studentQuotes": [
+        "I don't want to be here anymore.",
+        "Everyone would be better off without me.",
+        "I've thought about ending my life.",
+        "Sometimes I wish I could disappear.",
+        "I've been hurting myself.",
+        "I want to die.",
+        "I have a plan to hurt myself.",
+        "I may hurt myself tonight.",
+        "I'm thinking about suicide.",
+        "I don't think I can stay safe.",
+        "I don't trust myself right now.",
+        "Nobody can stop me."
+      ],
+      "why": "Any statement about suicide, self-harm, or not wanting to be here requires immediate professional involvement — never keep this to yourself and never try to counsel the student through it alone.",
+      "mentorScript": "Thank you for telling me. I'm really glad you shared that with me. Because I'm concerned about your safety, I need to connect you with someone who can help right now. You're not alone.",
+      "action": "Stay with the student if possible. Contact professional staff immediately. If there is immediate danger, call 911 or the 988 Suicide & Crisis Lifeline.",
+      "resources": ["crisisline", "caps", "deanofstudents", "emergency"],
+      "whatToBring": []
+    },
+    {
+      "id": "red-threats-violence",
+      "level": "red",
+      "title": "Threats of Violence Toward Others",
+      "category": "Threats Toward Others",
+      "weight": 7,
+      "studentQuotes": [
+        "I want to hurt someone.",
+        "One day they're going to regret what they did to me.",
+        "Sometimes I think about getting revenge.",
+        "I know exactly who I'd go after.",
+        "If I fail this class, somebody is going to pay.",
+        "I brought a weapon."
+      ],
+      "why": "Statements about hurting someone else are a safety risk to the whole campus community and must go straight to professional staff and Public Safety — never assess or handle this alone.",
+      "mentorScript": "I take that seriously. We need to get the appropriate people involved immediately.",
+      "action": "Contact professional staff and Public Safety immediately. Do not try to de-escalate or investigate the threat yourself.",
+      "resources": ["publicsafety", "deanofstudents", "emergency"],
+      "whatToBring": []
+    },
+    {
+      "id": "red-sexual-misconduct",
+      "level": "red",
+      "title": "Sexual Misconduct & Sexual Violence",
+      "category": "Sexual Misconduct & Sexual Violence",
+      "weight": 8,
+      "studentQuotes": [
+        "Someone assaulted me.",
+        "I was pressured into something I didn't want.",
+        "Something happened at a party.",
+        "My partner doesn't respect my boundaries.",
+        "I don't feel safe around someone.",
+        "I was sexually assaulted.",
+        "I think someone drugged me."
+      ],
+      "why": "These situations require trained staff who can support the student appropriately and explain reporting options — a peer mentor should never investigate or ask for details.",
+      "mentorScript": "Thank you for telling me. I'm sorry that happened. Because your safety and well-being matter, I need to connect you with people who are trained to support this.",
+      "action": "Connect the student with Title IX / the Care Team immediately. Avoid promises of secrecy and do not ask for investigative details.",
+      "resources": ["titleix", "caps", "publicsafety"],
+      "whatToBring": []
+    },
+    {
+      "id": "red-harassment-stalking",
+      "level": "red",
+      "title": "Harassment, Discrimination & Stalking",
+      "category": "Harassment, Discrimination, Stalking",
+      "weight": 6,
+      "studentQuotes": [
+        "Someone keeps following me.",
+        "I'm being harassed.",
+        "Somebody threatened me.",
+        "I'm afraid to walk back to my room.",
+        "Someone won't stop contacting me.",
+        "I don't feel safe on campus.",
+        "Someone threatened to kill me."
+      ],
+      "why": "Ongoing harassment or stalking is a pattern that professional staff need to track and act on — and any physical safety concern should also involve Public Safety.",
+      "mentorScript": "That's concerning, and I want to make sure the right people know about this right away.",
+      "action": "Connect the student with Title IX / the Care Team. If there is immediate physical danger, contact Public Safety or 911.",
+      "resources": ["titleix", "publicsafety", "deanofstudents"],
+      "whatToBring": []
+    },
+    {
+      "id": "red-medical-emergency",
+      "level": "red",
+      "title": "Medical Emergency",
+      "category": "Medical Emergencies",
+      "weight": 6,
+      "studentQuotes": [
+        "I think I'm having a medical emergency.",
+        "I can't breathe.",
+        "I think I overdosed.",
+        "I passed out earlier.",
+        "I might have alcohol poisoning."
+      ],
+      "why": "This is a physical emergency — every second matters. Call for emergency help immediately rather than trying to assess it yourself.",
+      "mentorScript": "Let's get help immediately. We're getting help right now.",
+      "action": "Call 911 immediately. Stay with the student and alert Public Safety.",
+      "resources": ["emergency", "publicsafety"],
+      "whatToBring": []
+    },
+    {
+      "id": "red-mental-health-crisis",
+      "level": "red",
+      "title": "Severe Mental Health Crisis",
+      "category": "Severe Mental Health Crisis",
+      "weight": 6,
+      "studentQuotes": [
+        "I'm having a mental breakdown.",
+        "I can't stop crying and haven't slept for days.",
+        "I'm hearing voices.",
+        "I feel completely out of control.",
+        "I'm afraid to be alone.",
+        "I don't know if I can keep going."
+      ],
+      "why": "A crisis at this level needs a trained mental health professional, not a peer mentor trying to talk the student through it.",
+      "mentorScript": "I'm glad you told me. You don't have to handle this alone. Let's get additional support involved right now.",
+      "action": "Contact professional staff / CAPS immediately. Stay with the student if possible and follow program protocol.",
+      "resources": ["caps", "crisisline", "deanofstudents"],
+      "whatToBring": []
+    },
+    {
+      "id": "red-abuse-unsafe",
+      "level": "red",
+      "title": "Abuse & Unsafe Living Situation",
+      "category": "Abuse & Unsafe Situations",
+      "weight": 6,
+      "studentQuotes": [
+        "I'm being physically abused.",
+        "I'm scared to go home.",
+        "My partner threatens me.",
+        "I don't feel safe where I'm living.",
+        "Someone is controlling everything I do.",
+        "I'm afraid someone will hurt me.",
+        "I was attacked."
+      ],
+      "why": "Abuse and unsafe living situations require professional staff who can connect the student with safety planning and appropriate authorities.",
+      "mentorScript": "Thank you for telling me. Your safety is important, and we need to connect you with support immediately.",
+      "action": "Contact professional staff and Public Safety immediately. Follow program protocol for reporting.",
+      "resources": ["deanofstudents", "publicsafety", "titleix"],
+      "whatToBring": []
+    }
+  ]
+}
